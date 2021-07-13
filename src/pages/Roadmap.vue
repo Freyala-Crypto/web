@@ -1,0 +1,284 @@
+<template>
+  <main>
+    <section id="section-i-1" class="border-b-4 border-primary-alt"
+             style="background: url('/images/SVG/homepage-bg-top.svg') no-repeat top right; background-size: 27%;">
+      <div class="container mx-auto text-center pt-24 lg:pt-48">
+        <h1 class="text-3xl lg:text-7xl text-primary-alt font-semibold pb-10 lg:pb-20">
+          Roadmap
+        </h1>
+      </div>
+    </section>
+
+    <section id="section-i-2" style="background: url('/images/PNG/road.png') no-repeat left bottom">
+      <div class="container mx-auto py-12 lg:py-24">
+        <div class="w-full xl:w-3/4">
+          <p class="text-2xl lg:text-5xl font-extralight">
+            What’s planned for Freyala in <span class="font-semibold text-primary-alt">2021</span> ?
+          </p>
+
+          <br>
+          <br>
+
+          <p class="text-2xl lg:text-4xl font-extralight">
+            Below is the current roadmap for Freyala planned for 2021. This list is subject to change and may be
+            updated with updates and/or future milestones.
+          </p>
+
+          <br>
+          <br>
+
+          <div class="bg-primary-alt rounded-2xl text-4xl text-white w-48 mx-auto p-4"> Chapter 0</div>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline font-extralight">
+            <div class="container cnt-finished right">
+              <div class="content">
+                <h2 class="text-2xl lg:text-4xl">The Settlers' Arrival (ICO)</h2>
+                <br>
+                <p>
+                  Led by Regent Carroway of the monarch, the settlers spent countless years exploring the world of
+                  Freyala, before finding the perfect location to call their home. The Freyfolk lived in peace and grew
+                  their civilization. After a mining excavation by Payne’s Crew, they uncovered a mystical ore unlike
+                  anything else. The regent named these crystals ‘XYA’ and this was the very beginning.
+                </p>
+              </div>
+            </div>
+            <div class="container cnt-finished left text-right">
+              <div class="content">
+                <h2 class="text-2xl lg:text-4xl">XYA Stability Meter (CHART)</h2>
+                <br>
+                <p>
+                  The monarch soon realized that XYA was a volatile resource. Devising a way to determine the crystals’
+                  stability, they could now observe its current state, as they tried to understand the true power of
+                  this mystical ore. This was shown through a ‘Stability Meter’, which updated on regular intervals and
+                  could even be used on other resources.
+                </p>
+              </div>
+            </div>
+            <div class="container cnt-finished right">
+              <div class="content">
+                <h2 class="text-2xl lg:text-4xl">Daily Quests for XYA (FAUCET)</h2>
+                <br>
+                <p>
+                  Regent Carroway desired to continue collecting and studying in the hopes of gaining insurmountable
+                  power. With rumors about XYA spreading, the Freyfolk soon divided themselves into two rivalrous clans.
+                  The former believed that XYA could be used to create an indescribable utopia with power and advanced
+                  technology, whilst the others considered XYA a dangerous weapon that needed to be eradicated.
+                </p>
+              </div>
+            </div>
+            <div class="container cnt-finished left text-right">
+              <div class="content">
+                <h2 class="text-2xl lg:text-4xl">XYA Depositories (WALLET)</h2>
+                <br>
+                <p>
+                  Depositories for XYA soon were built within the monarch’s castle. Approved by users of the magical
+                  arts, Regent Carroway planned to store and use extracted XYA for his own benefit. Villagers also began
+                  creating their own small depositories, built in hidden basements and rooms, as smuggling around the
+                  ore was highly prohibited.
+                </p>
+              </div>
+            </div>
+            <div class="container cnt-finished right">
+              <div class="content">
+                <h2 class="text-2xl lg:text-4xl">Operations for XYA Extraction (STAKING)</h2>
+                <br>
+                <p>
+                  After careful planning, Regent Carroway enlisted the help of trusted servants and miners to extract
+                  XYA from the mines ‒ much to one of the faction’s disapproval. Illegal extraction operations also
+                  emerged, but only for the right price. The monarch’s stash of XYA slowly grew with each passing day,
+                  and the regent felt prepared for any conflict that would arise.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full bg-gradient-to-r from-primary to-secondary">
+        <div class="container mx-auto flex">
+          <div class="w-3/4 mx-auto flex flex-wrap py-4">
+            <div class="w-full lg:w-2/5 text-center lg:text-right my-auto">
+              <p class="text-3xl text-white font-extralight">Current</p>
+            </div>
+            <div class="w-full lg:w-1/5 text-center my-auto">
+              <img class="h-24 mx-auto" src="/images/SVG/loading-working-on.svg" alt="Currently working on logo">
+            </div>
+            <div class="w-full lg:w-2/5 text-center lg:text-left my-auto">
+              <p class="text-3xl text-white font-semibold">Codename Reginald (TIPBOT)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-i-3" class="bg-black pb-24 mb-24">
+
+      <div class="pt-20 text-center">
+        <p class="text-white mx-auto text-center">July</p>
+        <div class="text-primary-alt rounded-2xl text-4xl bg-white w-48 mx-auto p-4"> Chapter 1</div>
+      </div>
+
+      <div class="timeline-container text-white">
+        <div class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">The World's Revival (APP)</h2>
+              <br>
+              <p>
+                Regent Carroway was determined to start a new era of power and domination for the Freyfolk. Noticing the
+                natural power emanating from the world of Freyala, the regent decided that XYA was the key to
+                understanding these unknown forces and obtaining balance. The settlement was rebuilt and reborn, as the
+                Freyfolk integrated these crystals into their machines, structures and everyday lives.
+              </p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">Addictive hazards (CASINO)</h2>
+              <br>
+              <p>
+                Opportunists and bandits alike sought out to grow their stashes of XYA, relishing in the power and
+                chaos. Those that wanted this done quickly resulted in wagers and duels ‒ often to the death. High stake
+                games like these were often done in secrecy, away from any involvement from the monarch. An underground
+                corporation named ‘Luderion’ was formed to host these games in secrecy.
+              </p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">Travelers Inn (MERCH)</h2>
+              <br>
+              <p>
+                With other settlers hearing rumors about a mystical ore named XYA, the monarch built a travelers inn to
+                accommodate these enthusiasts. The regent assigned Sir Reginald, his loyal butler that had served him
+                for decades, to be the caretaker of any passing travelers. Those that stayed at the inn would often
+                purchase an assortment of outfits and items as mementos, which was something the regent found
+                delightful.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-20 text-center">
+        <p class="text-white mx-auto text-center">August</p>
+        <div class="bg-gray rounded-2xl text-4xl text-white w-48 mx-auto p-4"> Chapter 2</div>
+      </div>
+
+      <div class="timeline-container text-white">
+        <div class="timeline">
+          <div class="container right">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">Aggregation of materials (DEX AGGREGATOR)</h2>
+              <br>
+              <p>
+                With many of the Freyfolk growing tired of the regent’s discretion of the mystical ores, merchants soon
+                began roaming the streets of Freyala, bartering away their valuables and XYA; they would offer deals of
+                the best value. How these traders were able to obtain such copious amounts of XYA were never answered…
+                or dared to be asked
+              </p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">Expansion of the riches (CASINO EXPANSION)</h2>
+              <br>
+              <p>
+                Word of Luderion soon began spreading amongst the Freyfolk. New wagers, with ten times the danger and
+                rewards, were being initiated. Growing in riches, some wealthy participants would even bid other
+                valuable and lucrative items. Despite Regent Carroway’s best attempts to uncover this scheme, the
+                founders of Luderion were never unmasked, and had even managed to infiltrate the monarch’s ranks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-12">
+        <p class="w-full lg:w-1/2 text-center mx-auto text-white font-extralight text-2xl lg:text-3xl px-8 lg:px-0">
+          Freyala is still in the very early stages of development, and there are many plans for the expansion of our
+          ecosystem.
+        </p>
+      </div>
+
+      <div
+          class="container mx-auto flex flex-wrap p-8 lg:p-12 rounded-3xl bg-gradient-to-r from-primary to-secondary my-12">
+        <div class="w-full lg:w-4/5 mx-auto text-center">
+          <p class="text-5xl text-white font-extralight">
+            Stay <span class="font-semibold">connected</span> and updated:
+          </p>
+          <br>
+          <p class="text-2xl text-white font-extralight">
+            The community is active on several different social media platforms, with Discord being the recommended and
+            active place to stay updated and interact with the community.
+          </p>
+        </div>
+
+        <div class="w-full mx-auto text-center">
+          <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/4 flex flex-wrap mt-8 lg:mt-16 mb-8">
+              <img class="h-12 lg:h-24 mx-auto mb-8" src="/images/SVG/discord.svg" alt="Discord">
+              <div class="w-full">
+                <a href="https://discord.gg/tKtr9GgzA6" target="_blank">
+                  <img class="my-auto w-20 inline" src="/images/SVG/arrow-right-white.svg" alt="Arrow right">
+                  <span class="uppercase ml-4 text-2xl font-semibold text-white">
+                    Discord
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/4 flex flex-wrap mt-8 lg:mt-16 mb-8">
+              <img class="h-12 lg:h-24 mx-auto mb-8" src="/images/SVG/twitter.svg" alt="Discord">
+              <div class="w-full">
+                <a href="https://twitter.com/freyalacrypto" target="_blank">
+                  <img class="my-auto w-20 inline" src="/images/SVG/arrow-right-white.svg" alt="Arrow right">
+                  <span class="uppercase ml-4 text-2xl font-semibold text-white">
+                    Twitter
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/4 flex flex-wrap mt-8 lg:mt-16 mb-8">
+              <img class="h-12 lg:h-24 mx-auto mb-8" src="/images/SVG/telegram.svg" alt="Discord">
+              <div class="w-full">
+                <a href="https://t.me/freyalacrypto" target="_blank">
+                  <img class="my-auto w-20 inline" src="/images/SVG/arrow-right-white.svg" alt="Arrow right">
+                  <span class="uppercase ml-4 text-2xl font-semibold text-white">
+                    Telegram
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/4 flex flex-wrap mt-8 lg:mt-16 mb-8">
+              <img class="h-12 lg:h-24 mx-auto mb-8" src="/images/SVG/reddit.svg" alt="Discord">
+              <div class="w-full">
+                <a href="https://www.reddit.com/r/XYA_Official/" target="_blank">
+                  <img class="my-auto w-20 inline" src="/images/SVG/arrow-right-white.svg" alt="Arrow right">
+                  <span class="uppercase ml-4 text-2xl font-semibold text-white">
+                    Reddit
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <looking-for-these-component/>
+
+  </main>
+</template>
+
+<script>
+import LookingForTheseComponent from '@/components/LookingForThese'
+
+export default {
+  name: 'Roadmap',
+  components: {
+    LookingForTheseComponent
+  }
+}
+</script>

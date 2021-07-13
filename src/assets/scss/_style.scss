@@ -1,0 +1,151 @@
+html, body {
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+  ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    li {
+      float: right;
+
+      a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .hamburger {
+    @apply z-50 relative ml-auto;
+
+    .hamburger-link {
+      @apply absolute m-0 z-30 mx-auto;
+
+      top: 10px;
+      right: 0;
+      width: 40px;
+      height: 40px;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: 0.5s ease-in-out;
+      -moz-transition: 0.5s ease-in-out;
+      -o-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+
+      span {
+        @apply block absolute w-full rounded-none left-0 opacity-100 z-10;
+
+        height: 4px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+        transition: 0.25s ease-in-out;
+
+        &:nth-child(1) {
+          top: 0;
+        }
+
+        &:nth-child(2), &:nth-child(3) {
+          top: 15px;
+        }
+
+        &:nth-child(4) {
+          top: 30px;
+        }
+      }
+
+      &.open {
+        span {
+          &:nth-child(1) {
+            top: 18px;
+            width: 0;
+            left: 50%;
+          }
+
+          &:nth-child(2) {
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+
+          &:nth-child(3) {
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+          }
+
+          &:nth-child(4) {
+            top: 18px;
+            width: 0;
+            left: 50%;
+          }
+        }
+      }
+    }
+  }
+
+  #mobile-menu {
+    @apply bg-white text-black;
+
+    .bg {
+      height: 100vh;
+
+      ul {
+        li {
+          font-size: 20px;
+          padding-left: 3rem;
+          padding-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+[v-cloak] {
+  @apply hidden;
+}
+
+main {
+  #section-2 {
+    @screen lg {
+      background: url('/images/SVG/phone.svg') no-repeat 10% 5%;
+      background-size: 33vw;
+    }
+  }
+}
+
+.container {
+  @apply px-8;
+}
+
+.diagonal-1 {
+  background: black; /* For browsers that don't support gradients */
+  background: -webkit-linear-gradient(30deg, transparent 0%, transparent 65%, black 65%, black 100%);
+  background: -o-linear-gradient(30deg, transparent 0%, transparent 65%, black 65%, black 100%);
+  background: -moz-linear-gradient(30deg, transparent 0%, transparent 65%, black 65%, black 100%);
+  background: linear-gradient(30deg, transparent 0%, transparent 65%, black 65%, black 100%);
+  width: 100%;
+}
+.diagonal-2 {
+  background: black; /* For browsers that don't support gradients */
+  background: -webkit-linear-gradient(30deg, black 0%, black 65%, transparent 65%, transparent 100%);
+  background: -o-linear-gradient(30deg, black 0%, black 65%, transparent 65%, transparent 100%);
+  background: -moz-linear-gradient(30deg, black 0%, black 65%, transparent 65%, transparent 100%);
+  background: linear-gradient(30deg, black 0%, black 65%, transparent 65%, transparent 100%);
+  width: 100%;
+}

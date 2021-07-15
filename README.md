@@ -1,6 +1,6 @@
 # Readme
 
-## Project setup
+## Selfhost the website!
 
 ```text
 npm install

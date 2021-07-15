@@ -4,7 +4,7 @@ description: >-
   you have staked.
 ---
 
-# Why stake
+# FAQ
 
 ## Why would I want to stake my $XYA?
 

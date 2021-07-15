@@ -2,7 +2,7 @@
 
 * [Website](README.md)
 * [Staking](staking/README.md)
-  * [Why stake](staking/why-stake.md)
   * [How to](staking/how-to.md)
+  * [FAQ](staking/faq.md)
   * [The contract](staking/the-contract.md)
 

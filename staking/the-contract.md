@@ -6,8 +6,6 @@ description: >-
 
 # The contract
 
-## The contract
-
 {% code title="FreyalaStake.sol" %}
 ```bash
 //"SPDX-License-Identifier: UNLICENSED"

@@ -2,6 +2,14 @@
 
 ## Selfhost the website!
 
+### Clones the repository
+
+```text
+git clone git@github.com:freyala/web.git freyala
+```
+
+### Installs all dependencies
+
 ```text
 npm install
 ```

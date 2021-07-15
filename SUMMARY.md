@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Readme](README.md)
+* [Website](README.md)
 * [Staking](staking/README.md)
   * [Why stake](staking/why-stake.md)
   * [How to](staking/how-to.md)

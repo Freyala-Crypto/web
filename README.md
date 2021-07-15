@@ -1,4 +1,4 @@
-# Readme
+# Website
 
 ## Selfhost the website!
 

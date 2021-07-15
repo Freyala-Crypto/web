@@ -104,7 +104,7 @@ contract FreyalaStake is Owned {
     //pause mechanism
     bool public active = true;
 
-    //mapping of stakeholder's addresses to data
+    //mapping of stakeholders addresses to data
     mapping(address => uint) public stakes;
     mapping(address => uint) public referralRewards;
     mapping(address => uint) public referralCount;
@@ -160,7 +160,7 @@ contract FreyalaStake is Owned {
      * registers and creates stakes for new stakeholders
      * deducts the registration tax and staking tax
      * calculates refferal bonus from the registration tax and sends it to the _referrer if there is one
-     * transfers XYA from sender's address into the smart contract
+     * transfers XYA from senders address into the smart contract
      * Emits an {OnRegisterAndStake} event..
      */
     function registerAndStake(uint _amount, address _referrer) external onlyUnregistered() whenActive() {
@@ -191,7 +191,7 @@ contract FreyalaStake is Owned {
         lastClock[msg.sender] = now;
         //update the total staked XYA amount in the pool
         totalStaked = totalStaked.add(finalAmount).sub(stakingTax);
-        //update the user's stakes deducting the staking tax
+        //update the users stakes deducting the staking tax
         stakes[msg.sender] = (stakes[msg.sender]).add(finalAmount).sub(stakingTax);
         //emit event
         emit OnRegisterAndStake(msg.sender, _amount, registrationTax.add(stakingTax), _referrer);
@@ -231,7 +231,7 @@ contract FreyalaStake is Owned {
         uint remainder = (now.sub(lastClock[msg.sender])).mod(86400);
         //mark transaction date with remainder
         lastClock[msg.sender] = now.sub(remainder);
-        //updates stakeholder's stakes
+        //updates stakeholders stakes
         stakes[msg.sender] = (stakes[msg.sender]).add(afterTax);
         //emit event
         emit OnStake(msg.sender, afterTax, stakingTax);
@@ -252,7 +252,7 @@ contract FreyalaStake is Owned {
         uint unstakingTax = (unstakingTaxRate.mul(_amount)).div(1000);
         //calculates amount after tax
         uint afterTax = _amount.sub(unstakingTax);
-        //sums up stakeholder's total rewards with _amount deducting unstaking tax
+        //sums up stakeholders total rewards with _amount deducting unstaking tax
         stakeRewards[msg.sender] = (stakeRewards[msg.sender]).add(calculateEarnings(msg.sender));
         //updates stakes
         stakes[msg.sender] = (stakes[msg.sender]).sub(_amount);
@@ -273,7 +273,7 @@ contract FreyalaStake is Owned {
         emit OnUnstake(msg.sender, _amount, unstakingTax);
     }
 
-    //transfers total active earnings to stakeholder's wallet
+    //transfers total active earnings to stakeholders wallet
     function withdrawEarnings() external returns (bool success) {
         //calculates the total redeemable rewards
         uint totalReward = (referralRewards[msg.sender]).add(stakeRewards[msg.sender]).add(calculateEarnings(msg.sender));

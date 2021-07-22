@@ -82,6 +82,12 @@
                   Freyala faucet
                 </a>
               </div>
+              <div v-else-if="holder.id === '0x194e7650fe17c2c478cd6d147620790c9e811c3f'"
+                   class="w-2/3">
+                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
+                  Freyala mines (JENNY)
+                </a>
+              </div>
               <div v-else-if="holder.id === '0xfacdddf6f59abee55f19f47698356d9de036e871'"
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">

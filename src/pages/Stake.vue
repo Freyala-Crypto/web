@@ -53,8 +53,6 @@
                   <div class="mt-3 text-2xl text-white font-bold leading-8">
                     {{ ((parseFloat(stakes).toFixed(2)) / 1000000000000000000).toFixed(2) }}
                   </div>
-
-                  <div class="mt-1 text-base text-gray-600 cursor-pointer" @click="unstake(true)">Unstake all</div>
                 </div>
               </div>
             </div>
@@ -114,6 +112,15 @@
                   </button>
                 </div>
               </div>
+
+              <div class="text-center mt-4">
+                <button v-if="!registrationStatus" @click="registerAndStakeAll()" class="mx-auto tracking-widest uppercase bg-gradient-to-r from-primary to-secondary py-4 px-8 rounded-md text-white text-xl font-semibold">
+                  Stake all
+                </button>
+                <button v-else @click="stakeAll()" class="mx-auto tracking-widest uppercase bg-gradient-to-r from-primary to-secondary py-4 px-8 rounded-md text-white text-xl font-semibold">
+                  Stake all
+                </button>
+              </div>
             </div>
           </div>
           <div>
@@ -139,6 +146,12 @@
                 </button>
                 <button v-else class="flex flex-row items-center w-48 justify-center">
                   <span class="w-24">UNSTAKE</span>
+                </button>
+              </div>
+
+              <div class="text-center mt-4">
+                <button @click="unstake(true)" class="mx-auto tracking-widest uppercase bg-gradient-to-r from-primary to-secondary py-4 px-8 rounded-md text-white text-xl font-semibold">
+                  Unstake all
                 </button>
               </div>
             </div>
@@ -372,6 +385,68 @@ export default {
           gas: parseFloat((this.gasPrice * this.gasLimit) / Math.pow(10, 9))
         });
         await this.freyalaStake.methods.registerAndStake(arg, ref).send({
+          from: this.accounts[0],
+          gasPrice: this.gasPrice,
+          gasLimit: this.gasLimit,
+          gas: parseFloat((this.gasPrice * this.gasLimit) / Math.pow(10, 9))
+        });
+        await this.updateAll();
+        this.amountToStake = 0;
+      } catch (err) {
+        if (err.code !== 4001) {
+          this.error = err
+        }
+        console.error(err);
+      }
+      this.stakingLoading = false;
+    },
+
+    async registerAndStakeAll() {
+      this.error = ''
+      this.stakingLoading = true;
+      const actual = await this.freyalaToken.methods.balanceOf(this.accounts[0]).call();
+      const arg = fromExponential(actual);
+
+      try {
+        let ref = "0x0000000000000000000000000000000000000000";
+
+        await this.freyalaToken.methods.approve("0x861ef0CaB3ab4a1372E7eDa936668C8967F70110", arg).send({
+          from: this.accounts[0],
+          gasPrice: this.gasPrice,
+          gasLimit: this.gasLimit,
+          gas: parseFloat((this.gasPrice * this.gasLimit) / Math.pow(10, 9))
+        });
+        await this.freyalaStake.methods.registerAndStake(arg, ref).send({
+          from: this.accounts[0],
+          gasPrice: this.gasPrice,
+          gasLimit: this.gasLimit,
+          gas: parseFloat((this.gasPrice * this.gasLimit) / Math.pow(10, 9))
+        });
+        await this.updateAll();
+        this.amountToStake = 0;
+      } catch (err) {
+        if (err.code !== 4001) {
+          this.error = err
+        }
+        console.error(err);
+      }
+      this.stakingLoading = false;
+    },
+
+    async stakeAll() {
+      this.error = ''
+      this.stakingLoading = true;
+      const actual = await this.freyalaToken.methods.balanceOf(this.accounts[0]).call();
+      const arg = fromExponential(actual);
+
+      try {
+        await this.freyalaToken.methods.approve("0x861ef0CaB3ab4a1372E7eDa936668C8967F70110", arg).send({
+          from: this.accounts[0],
+          gasPrice: this.gasPrice,
+          gasLimit: this.gasLimit,
+          gas: parseFloat((this.gasPrice * this.gasLimit) / Math.pow(10, 9))
+        });
+        await this.freyalaStake.methods.stake(arg).send({
           from: this.accounts[0],
           gasPrice: this.gasPrice,
           gasLimit: this.gasLimit,

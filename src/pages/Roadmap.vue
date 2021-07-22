@@ -92,6 +92,17 @@
                 </p>
               </div>
             </div>
+            <div class="container cnt-finished left">
+              <div class="content">
+                <h2 class="text-2xl lg:text-4xl">Sir Reginald (DISCORD BOT)</h2>
+                <br>
+                <p>
+                  Regent Carroway officially appointed Sir Reginald his butler, who had served the Carroway family for
+                  his entire lifetime. Carroway entrusted his loyal butler with all his secrets, handing him the keys to
+                  the kingdom of Freyala.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -106,7 +117,7 @@
               <img class="h-24 mx-auto" src="/images/SVG/loading-working-on.svg" alt="Currently working on logo">
             </div>
             <div class="w-full lg:w-2/5 text-center lg:text-left my-auto">
-              <p class="text-3xl text-white font-semibold">Codename Reginald (TIPBOT)</p>
+              <p class="text-3xl text-white font-semibold">The World's Revival (APP)</p>
             </div>
           </div>
         </div>
@@ -122,18 +133,18 @@
 
       <div class="timeline-container text-white">
         <div class="timeline">
-          <div class="container left">
-            <div class="content">
-              <h2 class="text-2xl md:text-4xl">The World's Revival (APP)</h2>
-              <br>
-              <p>
-                Regent Carroway was determined to start a new era of power and domination for the Freyfolk. Noticing the
-                natural power emanating from the world of Freyala, the regent decided that XYA was the key to
-                understanding these unknown forces and obtaining balance. The settlement was rebuilt and reborn, as the
-                Freyfolk integrated these crystals into their machines, structures and everyday lives.
-              </p>
-            </div>
-          </div>
+<!--          <div class="container left">-->
+<!--            <div class="content">-->
+<!--              <h2 class="text-2xl md:text-4xl">The World's Revival (APP)</h2>-->
+<!--              <br>-->
+<!--              <p>-->
+<!--                Regent Carroway was determined to start a new era of power and domination for the Freyfolk. Noticing the-->
+<!--                natural power emanating from the world of Freyala, the regent decided that XYA was the key to-->
+<!--                understanding these unknown forces and obtaining balance. The settlement was rebuilt and reborn, as the-->
+<!--                Freyfolk integrated these crystals into their machines, structures and everyday lives.-->
+<!--              </p>-->
+<!--            </div>-->
+<!--          </div>-->
           <div class="container right">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">Addictive hazards (CASINO)</h2>
@@ -171,13 +182,36 @@
         <div class="timeline">
           <div class="container right">
             <div class="content">
+              <h2 class="text-2xl md:text-4xl">Sir Reginald’s Origin (DISCORD BOT STAKING & CASINO)</h2>
+              <br>
+              <p>
+                Apart from his allegiance to the regent, Sir Reginald was also known to help administrate certain wagers
+                for Luderion amongst certain members of the Freyfolk. Those that became wealthy would always reimburse
+                Reginald handsomely, with him even offering his private services for XYA extraction.
+              </p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">The Rise of Democracy (ON-CHAIN VOTING)</h2>
+              <br>
+              <p>
+                To incentivize the Freyfolk to embrace the power of XYA, Regent Carroway allowed the public to enter a
+                democratic committee. People who held XYA openly were allowed to join this group, then discuss with
+                other committee members and vote for certain proposals. Those with more XYA were deemed worthier in the
+                regent’s eyes, with their opinion being more valuable.
+              </p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
               <h2 class="text-2xl md:text-4xl">Aggregation of materials (DEX AGGREGATOR)</h2>
               <br>
               <p>
                 With many of the Freyfolk growing tired of the regent’s discretion of the mystical ores, merchants soon
                 began roaming the streets of Freyala, bartering away their valuables and XYA; they would offer deals of
                 the best value. How these traders were able to obtain such copious amounts of XYA were never answered…
-                or dared to be asked
+                or dared to be asked.
               </p>
             </div>
           </div>
@@ -190,6 +224,109 @@
                 rewards, were being initiated. Growing in riches, some wealthy participants would even bid other
                 valuable and lucrative items. Despite Regent Carroway’s best attempts to uncover this scheme, the
                 founders of Luderion were never unmasked, and had even managed to infiltrate the monarch’s ranks.
+              </p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">New Ways to Enter (DESKTOP APP)</h2>
+              <br>
+              <p>
+                Apart from the inn, Regent Carroway granted noblemen and others of high status further access to the
+                Freyala kingdom. By offering their insightful knowledge and knowledge to the monarch, the regent made
+                use of this help to concoct an experimental and unstable form of XYA, known as ‘enhanced XYA’ in his
+                quest for immortality and ultimate power.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-20 text-center">
+        <p class="text-white mx-auto text-center">September</p>
+        <div class="bg-gray rounded-2xl text-4xl text-white w-48 mx-auto p-4"> Chapter 3</div>
+      </div>
+
+      <div class="timeline-container text-white">
+        <div class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">Sir Reginald's Counsel (DISCORD BOT VOTING)</h2>
+              <br>
+              <p>
+                Some Freyfolk contacted Sir Reginald directly, allowing him to voice their opinions and advocate for
+                their proposals ‒ similarly to the democratic committee. Coming from the loyal butler himself, Regent
+                Carroway would heed Sir Reginald’s words with great care and respect, even announcing some proposals
+                through him directly. Many sought out Sir Reginald’s counsel as a result.
+              </p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">Freyala's Development (PLOTS)</h2>
+              <br>
+              <p>
+                The Freyfolk wanted to explore outside these walls and explore everything the world of Freyala had to
+                offer. Wealthy individuals purchased plots of land to build their own grandiose homes and structures.
+                Adventurers in particular would collect mementos and objects from expeditions to customize their land,
+                while others would purchase curated lucrative decorations.
+              </p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">Life Beyond the Walls (CRYPTIDS TECHNICAL ALPHA)</h2>
+              <br>
+              <p>
+                The civilians of Freyala soon discovered the existence of Harmons, wild creatures that had roamed the
+                earth for thousands of years. Regent Carroway ordered the immediate capture of any Harmon on sight and
+                wanted to fully harness their power. Some members of the Freyfolk decided to covertly harvest their own
+                Harmons, keeping them hidden away from the monarch using them for underground battles.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-20 text-center">
+        <p class="text-white mx-auto text-center">October</p>
+        <div class="bg-gray rounded-2xl text-4xl text-white w-48 mx-auto p-4"> Chapter 4</div>
+      </div>
+
+      <div class="timeline-container text-white">
+        <div class="timeline">
+          <div class="container right">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">Beyond Freyala (CROSS-PROJECT PLOTS)</h2>
+              <br>
+              <p>
+                Merchants from other settlements soon began purchasing their own plots of land, establishing their own
+                objects. With the Freyfolk taking a keen interest, Regent Carroway allowed the presence of unknown ores
+                from other regions in the kingdom, especially since he wanted to use this untapped power and potential.
+              </p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">The Exceptional Butler (DISCORD BOT EXPANSION)</h2>
+              <br>
+              <p>
+                Sir Reginald’s status quickly surpassed that of a regular old butler. Regent Carroway would often
+                confide in him, assigning the butler to several quests and tasks, heavily involving him in the
+                proceedings of the Freyfolk community. More parties would contact Reginald privately for their own
+                demands as they realized that he was more than just a regular butler.
+              </p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">Markets of Trade (BETA NFT MARKETPLACE)</h2>
+              <br>
+              <p>
+                Luderion saw the newly attractive Harmons as an opportunity. Forming their own covert marketplace,
+                Freyfolk members were able to barter their elemental creatures, purchasing and selling Harmons for items
+                of value. This soon expanded to a limitless city-wide operation that members of the monarch praised ‒
+                much to Regent Carroway’s disappointment.
               </p>
             </div>
           </div>

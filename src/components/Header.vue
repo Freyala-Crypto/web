@@ -9,19 +9,20 @@
       <div class="hidden lg:block w-4/5 my-auto text-right">
         <ul>
           <li class="uppercase pl-6">
-            <router-link :to="{ name: 'stake' }">
+            <a href="https://world.freyala.com/" target="_blank">
               <button
                   class="tracking-widest uppercase bg-gradient-to-r from-primary to-secondary py-4 px-8 rounded-md text-white text-xl font-semibold">
-                Stake it!
+                Enter Freyala
               </button>
-            </router-link>
+            </a>
+          </li>
+          <li class="tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold"
+              :class="`${this.$route.name === 'homepage' ? 'text-white' : 'text-black'}`">
+            <router-link :to="{ name: 'stake' }">Stake it!</router-link>
           </li>
           <li class="tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold"
               :class="`${this.$route.name === 'homepage' ? 'text-white' : 'text-black'}`">
             <router-link :to="{ name: 'get-xya' }">Get XYA</router-link>
-          <li class="tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold"
-              :class="`${this.$route.name === 'homepage' ? 'text-white' : 'text-black'}`">
-            <router-link :to="{ name: 'team' }">Team</router-link>
           </li>
           <li class="tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold"
               :class="`${this.$route.name === 'homepage' ? 'text-white' : 'text-black'}`">
@@ -66,13 +67,17 @@
             </li>
             <li class="w-full tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold" @click="changeMobilemenu()">
               <router-link :to="{ name: 'get-xya' }">Get XYA</router-link>
+            </li>
+            <li class="w-full tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold" @click="changeMobilemenu()">
+              <router-link :to="{ name: 'stake' }">Stake it!</router-link>
+            </li>
             <li class="w-full uppercase" @click="changeMobilemenu()">
-              <router-link :to="{ name: 'stake' }">
+              <a href="https://world.freyala.com/" target="_blank">
                 <button
                     class="tracking-widest uppercase bg-gradient-to-r from-primary to-secondary py-4 px-8 rounded-md text-white text-xl font-semibold">
-                  Stake it!
+                  Enter Freyala
                 </button>
-              </router-link>
+              </a>
             </li>
           </ul>
         </div>

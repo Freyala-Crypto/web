@@ -79,13 +79,19 @@
               <div v-else-if="holder.id === '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe'"
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala faucet
+                  Freyala faucet backup
                 </a>
               </div>
               <div v-else-if="holder.id === '0x194e7650fe17c2c478cd6d147620790c9e811c3f'"
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
                   Freyala mines (JENNY)
+                </a>
+              </div>
+              <div v-else-if="holder.id === '0x038eb501cef9d37e1a418ba28f66bd535123a6e7'"
+                   class="w-2/3">
+                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
+                  Roulette house
                 </a>
               </div>
               <div v-else-if="holder.id === '0xfacdddf6f59abee55f19f47698356d9de036e871'"
@@ -122,6 +128,12 @@
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
                   Freyala development fund
+                </a>
+              </div>
+              <div v-else-if="holder.id === '0xdc607e3cfb286eb8176fbc2e3f86f0c5ce6f8523'"
+                   class="w-2/3">
+                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
+                  XYA-JENN liquidity pool pair
                 </a>
               </div>
               <div v-else-if="holder.id === '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18'"
@@ -203,7 +215,7 @@
               <div v-else-if="holder.id === '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe'"
                    class="w-full">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala faucet
+                  Freyala faucet backup
                 </a>
               </div>
               <div v-else-if="holder.id === '0xfacdddf6f59abee55f19f47698356d9de036e871'"
@@ -224,6 +236,12 @@
                   Freyala supply
                 </a>
               </div>
+              <div v-else-if="holder.id === '0x038eb501cef9d37e1a418ba28f66bd535123a6e7'"
+                   class="w-full">
+                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
+                  Roulette house
+                </a>
+              </div>
               <div v-else-if="holder.id === '0x9aa78983e7e4ae0873235c44cae53bb63f594ca6'"
                    class="w-full">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
@@ -234,6 +252,18 @@
                    class="w-full">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
                   Freyala Kraken's den (Time locked tokens (FEB62022))
+                </a>
+              </div>
+              <div v-else-if="holder.id === '0x194e7650fe17c2c478cd6d147620790c9e811c3f'"
+                   class="w-full">
+                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
+                  Freyala mines (JENNY)
+                </a>
+              </div>
+              <div v-else-if="holder.id === '0xdc607e3cfb286eb8176fbc2e3f86f0c5ce6f8523'"
+                   class="w-full">
+                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
+                  Viperswap XYA-JENN liquidity pool pair
                 </a>
               </div>
               <div v-else class="w-full">

@@ -27,7 +27,7 @@
           <br>
           <br>
 
-          <div class="bg-primary-alt rounded-2xl text-4xl text-white w-48 mx-auto p-4"> Chapter 0</div>
+          <div class="bg-primary-alt rounded-2xl text-4xl text-white w-48 mx-auto p-4"> FINISHED</div>
         </div>
 
         <div class="timeline-container">
@@ -103,6 +103,30 @@
                 </p>
               </div>
             </div>
+            <div class="container cnt-finished right">
+              <div class="content">
+                <h2 class="text-2xl md:text-4xl">The World's Revival (APP)</h2>
+                <br>
+                <p>
+                  Regent Carroway was determined to start a new era of power and domination for the Freyfolk. Noticing the
+                  natural power emanating from the world of Freyala, the regent decided that XYA was the key to
+                  understanding these unknown forces and obtaining balance. The settlement was rebuilt and reborn, as the
+                  Freyfolk integrated these crystals into their machines, structures and everyday lives.
+                </p>
+              </div>
+            </div>
+            <div class="container cnt-finished left">
+              <div class="content">
+                <h2 class="text-2xl md:text-4xl">Addictive hazards (CASINO)</h2>
+                <br>
+                <p>
+                  Opportunists and bandits alike sought out to grow their stashes of XYA, relishing in the power and
+                  chaos. Those that wanted this done quickly resulted in wagers and duels ‒ often to the death. High stake
+                  games like these were often done in secrecy, away from any involvement from the monarch. An underground
+                  corporation named ‘Luderion’ was formed to host these games in secrecy.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -117,7 +141,7 @@
               <img class="h-24 mx-auto" src="/images/SVG/loading-working-on.svg" alt="Currently working on logo">
             </div>
             <div class="w-full lg:w-2/5 text-center lg:text-left my-auto">
-              <p class="text-3xl text-white font-semibold">The World's Revival (APP)</p>
+              <p class="text-3xl text-white font-semibold">Sir Reginald’s Origin</p>
             </div>
           </div>
         </div>
@@ -125,54 +149,6 @@
     </section>
 
     <section id="section-i-3" class="bg-black pb-24 mb-24">
-
-      <div class="pt-20 text-center">
-        <p class="text-white mx-auto text-center">July</p>
-        <div class="text-primary-alt rounded-2xl text-4xl bg-white w-48 mx-auto p-4"> Chapter 1</div>
-      </div>
-
-      <div class="timeline-container text-white">
-        <div class="timeline">
-<!--          <div class="container left">-->
-<!--            <div class="content">-->
-<!--              <h2 class="text-2xl md:text-4xl">The World's Revival (APP)</h2>-->
-<!--              <br>-->
-<!--              <p>-->
-<!--                Regent Carroway was determined to start a new era of power and domination for the Freyfolk. Noticing the-->
-<!--                natural power emanating from the world of Freyala, the regent decided that XYA was the key to-->
-<!--                understanding these unknown forces and obtaining balance. The settlement was rebuilt and reborn, as the-->
-<!--                Freyfolk integrated these crystals into their machines, structures and everyday lives.-->
-<!--              </p>-->
-<!--            </div>-->
-<!--          </div>-->
-          <div class="container right">
-            <div class="content">
-              <h2 class="text-2xl md:text-4xl">Addictive hazards (CASINO)</h2>
-              <br>
-              <p>
-                Opportunists and bandits alike sought out to grow their stashes of XYA, relishing in the power and
-                chaos. Those that wanted this done quickly resulted in wagers and duels ‒ often to the death. High stake
-                games like these were often done in secrecy, away from any involvement from the monarch. An underground
-                corporation named ‘Luderion’ was formed to host these games in secrecy.
-              </p>
-            </div>
-          </div>
-          <div class="container left">
-            <div class="content">
-              <h2 class="text-2xl md:text-4xl">Travelers Inn (MERCH)</h2>
-              <br>
-              <p>
-                With other settlers hearing rumors about a mystical ore named XYA, the monarch built a travelers inn to
-                accommodate these enthusiasts. The regent assigned Sir Reginald, his loyal butler that had served him
-                for decades, to be the caretaker of any passing travelers. Those that stayed at the inn would often
-                purchase an assortment of outfits and items as mementos, which was something the regent found
-                delightful.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div class="pt-20 text-center">
         <p class="text-white mx-auto text-center">August</p>
         <div class="bg-gray rounded-2xl text-4xl text-white w-48 mx-auto p-4"> Chapter 2</div>
@@ -180,18 +156,18 @@
 
       <div class="timeline-container text-white">
         <div class="timeline">
+<!--          <div class="container right">-->
+<!--            <div class="content">-->
+<!--              <h2 class="text-2xl md:text-4xl">Sir Reginald’s Origin (DISCORD BOT STAKING)</h2>-->
+<!--              <br>-->
+<!--              <p>-->
+<!--                Apart from his allegiance to the regent, Sir Reginald was also known to help administrate certain wagers-->
+<!--                for Luderion amongst certain members of the Freyfolk. Those that became wealthy would always reimburse-->
+<!--                Reginald handsomely, with him even offering his private services for XYA extraction.-->
+<!--              </p>-->
+<!--            </div>-->
+<!--          </div>-->
           <div class="container right">
-            <div class="content">
-              <h2 class="text-2xl md:text-4xl">Sir Reginald’s Origin (DISCORD BOT STAKING & CASINO)</h2>
-              <br>
-              <p>
-                Apart from his allegiance to the regent, Sir Reginald was also known to help administrate certain wagers
-                for Luderion amongst certain members of the Freyfolk. Those that became wealthy would always reimburse
-                Reginald handsomely, with him even offering his private services for XYA extraction.
-              </p>
-            </div>
-          </div>
-          <div class="container left">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">The Rise of Democracy (ON-CHAIN VOTING)</h2>
               <br>
@@ -203,7 +179,7 @@
               </p>
             </div>
           </div>
-          <div class="container right">
+          <div class="container left">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">Aggregation of materials (DEX AGGREGATOR)</h2>
               <br>
@@ -215,7 +191,7 @@
               </p>
             </div>
           </div>
-          <div class="container left">
+          <div class="container right">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">Expansion of the riches (CASINO EXPANSION)</h2>
               <br>
@@ -227,7 +203,7 @@
               </p>
             </div>
           </div>
-          <div class="container right">
+          <div class="container left">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">New Ways to Enter (DESKTOP APP)</h2>
               <br>
@@ -249,7 +225,7 @@
 
       <div class="timeline-container text-white">
         <div class="timeline">
-          <div class="container left">
+          <div class="container right">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">Sir Reginald's Counsel (DISCORD BOT VOTING)</h2>
               <br>
@@ -261,7 +237,7 @@
               </p>
             </div>
           </div>
-          <div class="container right">
+          <div class="container left">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">Freyala's Development (PLOTS)</h2>
               <br>
@@ -273,7 +249,7 @@
               </p>
             </div>
           </div>
-          <div class="container left">
+          <div class="container right">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">Life Beyond the Walls (CRYPTIDS TECHNICAL ALPHA)</h2>
               <br>
@@ -295,7 +271,7 @@
 
       <div class="timeline-container text-white">
         <div class="timeline">
-          <div class="container right">
+          <div class="container left">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">Beyond Freyala (CROSS-PROJECT PLOTS)</h2>
               <br>
@@ -306,7 +282,7 @@
               </p>
             </div>
           </div>
-          <div class="container left">
+          <div class="container right">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">The Exceptional Butler (DISCORD BOT EXPANSION)</h2>
               <br>
@@ -318,7 +294,7 @@
               </p>
             </div>
           </div>
-          <div class="container right">
+          <div class="container left">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">Markets of Trade (BETA NFT MARKETPLACE)</h2>
               <br>

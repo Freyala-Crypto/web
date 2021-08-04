@@ -3,7 +3,7 @@
     <section id="section-i-1" class="border-b-4 border-primary-alt"
              style="background: url('/images/SVG/homepage-bg-top.svg') no-repeat top right; background-size: 27%;">
       <div class="container mx-auto text-center pt-24 lg:pt-48">
-         <h1 class="text-3xl lg:text-7xl text-primary-alt font-semibold pb-10 lg:pb-20">
+        <h1 class="text-3xl lg:text-7xl text-primary-alt font-semibold pb-10 lg:pb-20">
           Stake your XYA!
         </h1>
       </div>

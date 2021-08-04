@@ -25,13 +25,13 @@
               </router-link>
             </li>
             <li class="mb-6">
-              <a href="https://www.freyala.com/images/XYA_Whitepaper_V1.0.pdf" target="_blank">
-                Whitepaper
-              </a>
-            </li>
-            <li class="mb-6">
               <router-link :to="{ name: 'roadmap' }">
                 Roadmap
+              </router-link>
+            </li>
+            <li class="mb-6">
+              <router-link :to="{ name: 'team' }">
+                Team
               </router-link>
             </li>
           </ul>

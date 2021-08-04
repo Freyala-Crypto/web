@@ -237,13 +237,13 @@
             <div class="container mx-auto flex">
               <div class="w-3/4 mx-auto flex flex-wrap py-4">
                 <div class="w-full lg:w-2/5 text-center lg:text-right my-auto">
-                  <p class="text-3xl text-white font-extralight">Codename Reginald</p>
+                  <p class="text-3xl text-white font-extralight">Sir Reginald’s Origin</p>
                 </div>
                 <div class="w-full lg:w-1/5 text-center my-auto">
                   <img class="h-24 mx-auto" src="/images/SVG/loading-working-on.svg" alt="Currently working on logo">
                 </div>
                 <div class="w-full lg:w-2/5 text-center lg:text-left my-auto">
-                  <p class="text-3xl text-white font-semibold">DISCORD TIPBOT</p>
+                  <p class="text-3xl text-white font-semibold">Tipbot staking</p>
                 </div>
               </div>
             </div>

@@ -13,6 +13,11 @@
       <div class="container mx-auto pt-12 pb-24 text-2xl lg:text-3xl font-extralight">
         <div class="flex flex-wrap">
           <div class="w-full">
+            <h4>MARKETCAP: <br class="block lg:hidden">
+              <span class="font-semibold text-primary-alt">${{
+                  (circulatingMarketCap * $store.getters.price).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+                }}</span></h4>
+            <br class="block lg:hidden">
             <h4>CIRCULATING SUPPLY: <br class="block lg:hidden">
               <span class="font-semibold text-primary-alt">{{
                   circulatingMarketCap.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
@@ -45,6 +50,13 @@
               <div class="w-1/6">{{ parseFloat(graveyard).toFixed(5) }}</div>
               <div class="w-1/6 text-right">-</div>
             </div>
+            <div class="transfer flex text-2xl mb-2">
+              <div class="w-2/3">
+                Freyala staking reward pool
+              </div>
+              <div class="w-1/6">{{ parseFloat(rewardPool).toFixed(5) }}</div>
+              <div class="w-1/6 text-right">-</div>
+            </div>
 
             <div
                 class="transfer flex text-2xl mb-2"
@@ -61,7 +73,7 @@
               <div v-else-if="holder.id === '0x861ef0cab3ab4a1372e7eda936668c8967f70110'"
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala single staking pool (also includes rewards)
+                  Freyala single staking pool
                 </a>
               </div>
               <div v-else-if="holder.id === '0xd211b33df63466d4cf4d8bad66f06d4ef7f0b581'"
@@ -151,7 +163,15 @@
               <div v-if="holder.id === '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4'" class="w-1/6 text-right">-</div>
               <div v-else-if="holder.id === '0xbb4972a578266e0800d98f4248d057d6f6cde2bf'" class="w-1/6 text-right">-
               </div>
+              <div v-else-if="holder.id === '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992'" class="w-1/6 text-right">-
+              </div>
+              <div v-else-if="holder.id === '0x038eb501cef9d37e1a418ba28f66bd535123a6e7'" class="w-1/6 text-right">-
+              </div>
+              <div v-else-if="holder.id === '0x194e7650fe17c2c478cd6d147620790c9e811c3f'" class="w-1/6 text-right">-
+              </div>
               <div v-else-if="holder.id === '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18'" class="w-1/6 text-right">-
+              </div>
+              <div v-else-if="holder.id === '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe'" class="w-1/6 text-right">-
               </div>
               <div v-else-if="holder.id === '0x000000000000000000000000000000000000dead'" class="w-1/6 text-right">-
               </div>
@@ -171,6 +191,22 @@
                 <div class="w-full">Amount</div>
               </div>
               <div class="w-full">{{ parseFloat(graveyard).toFixed(5) }}</div>
+
+              <div class="flex pt-4 text-primary-alt font-semibold">
+                <div class="w-full">Percentage</div>
+              </div>
+              <div class="w-full">-</div>
+            </div>
+            <div class="transfer flex flex-wrap text-2xl mb-2">
+              <div class="flex text-primary-alt font-semibold">
+                <div class="w-full">Address</div>
+              </div>
+              <div class="w-full">Freyala staking reward pool</div>
+
+              <div class="flex pt-4 text-primary-alt font-semibold">
+                <div class="w-full">Amount</div>
+              </div>
+              <div class="w-full">{{ parseFloat(rewardPool).toFixed(5) }}</div>
 
               <div class="flex pt-4 text-primary-alt font-semibold">
                 <div class="w-full">Percentage</div>
@@ -197,7 +233,7 @@
               <div v-else-if="holder.id === '0x861ef0cab3ab4a1372e7eda936668c8967f70110'"
                    class="w-full">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala single staking pool (also includes rewards)
+                  Freyala single staking pool
                 </a>
               </div>
               <div v-else-if="holder.id === '0xd211b33df63466d4cf4d8bad66f06d4ef7f0b581'"
@@ -281,10 +317,12 @@
                 <div class="w-full">Percentage</div>
               </div>
               <div v-if="holder.id === '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4'" class="w-full">-</div>
-              <div v-else-if="holder.id === '0xbb4972a578266e0800d98f4248d057d6f6cde2bf'" class="w-full">-
-              </div>
-              <div v-else-if="holder.id === '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18'" class="w-full">-
-              </div>
+              <div v-else-if="holder.id === '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992'" class="w-full">-</div>
+              <div v-else-if="holder.id === '0x038eb501cef9d37e1a418ba28f66bd535123a6e7'" class="w-full">-</div>
+              <div v-else-if="holder.id === '0x194e7650fe17c2c478cd6d147620790c9e811c3f'" class="w-full">-</div>
+              <div v-else-if="holder.id === '0xbb4972a578266e0800d98f4248d057d6f6cde2bf'" class="w-full">-</div>
+              <div v-else-if="holder.id === '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18'" class="w-full">-</div>
+              <div v-else-if="holder.id === '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe'" class="w-full">-</div>
               <div v-else-if="holder.id === '0x000000000000000000000000000000000000dead'" class="w-full">-
               </div>
               <div v-else class="w-full">
@@ -318,6 +356,9 @@ import axios from 'axios';
 const {Unit} = require("@harmony-js/utils");
 import LookingForTheseComponent from '@/components/LookingForThese'
 
+import {initWeb3} from "@/plugins/initWeb3";
+import FreyalaStakeAbi from "@/plugins/stakingArtifact.json";
+
 export default {
   components: {
     LookingForTheseComponent
@@ -343,11 +384,42 @@ export default {
     skip: 0,
     addressValue: '',
     lookedUpAddressBalance: undefined,
-    graveyard: 0
+    graveyard: 0,
+    totalStaked: 0,
+    rewardPool: 0,
+    accounts: [],
+    MMError: '',
+    loading: false,
+    freyalaStake: {}
   }),
 
-  mounted() {
+  async mounted() {
     this.loadHolders('XYA', this.skip, this.first);
+
+    let web3
+    try {
+      web3 = await initWeb3();
+    } catch (err) {
+      this.MMError = 'test';
+      this.loading = false;
+      return;
+    }
+
+    if (web3 === 'No MetaMask installed.') {
+      this.MMError = 'No MetaMask installed.';
+      return;
+    }
+
+    this.accounts = await web3.eth.getAccounts();
+    const networkId = await web3.eth.net.getId();
+    if (networkId !== 1666600000) {
+      this.MMError = "Please connect to the Harmony Mainnet";
+      this.loading = false;
+      return;
+    }
+
+    const freyalaStake = new web3.eth.Contract(FreyalaStakeAbi.abi, "0x861ef0cab3ab4a1372e7eda936668c8967f70110");
+    this.totalStaked = parseInt(await freyalaStake.methods.totalStaked().call()) / 1000000000000000000
   },
 
   methods: {
@@ -355,7 +427,12 @@ export default {
       axios.post('https://faucet-api.freyala.com/holders', {symbol, skip, first}).then((result) => {
         if (result.data.data.tokens.length > 0) {
           result.data.data.tokens[0].holders.map((holder) => {
-            if (holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4' && holder.id.split('-')[0] !== '0xbb4972a578266e0800d98f4248d057d6f6cde2bf') {
+            if (holder.id.split('-')[0] === '0x861ef0cab3ab4a1372e7eda936668c8967f70110') {
+              this.rewardPool = parseFloat(holder.amount) - parseFloat(this.totalStaked)
+              this.totalMarketCap += parseInt(this.rewardPool)
+              holder.amount = this.totalStaked
+            }
+            if (holder.id.split('-')[0] !== '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe' && holder.id.split('-')[0] !== '0x194e7650fe17c2c478cd6d147620790c9e811c3f' && holder.id.split('-')[0] !== '0x038eb501cef9d37e1a418ba28f66bd535123a6e7' && holder.id.split('-')[0] !== '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992' && holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4' && holder.id.split('-')[0] !== '0xbb4972a578266e0800d98f4248d057d6f6cde2bf') {
               this.circulatingMarketCap += parseInt(holder.amount)
             }
             if (holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4') {
@@ -381,7 +458,12 @@ export default {
       axios.post('https://faucet-api.freyala.com/holders', {symbol, skip, first}).then((result) => {
         if (result.data.data.tokens.length > 0) {
           result.data.data.tokens[0].holders.map((holder) => {
-            if (holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4' && holder.id.split('-')[0] !== '0xbb4972a578266e0800d98f4248d057d6f6cde2bf') {
+            if (holder.id.split('-')[0] === '0x861ef0cab3ab4a1372e7eda936668c8967f70110') {
+              this.rewardPool = parseFloat(holder.amount) - parseFloat(this.totalStaked)
+              this.totalMarketCap += parseInt(this.rewardPool)
+              holder.amount = this.totalStaked
+            }
+            if (holder.id.split('-')[0] !== '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe' && holder.id.split('-')[0] !== '0x194e7650fe17c2c478cd6d147620790c9e811c3f' && holder.id.split('-')[0] !== '0x038eb501cef9d37e1a418ba28f66bd535123a6e7' && holder.id.split('-')[0] !== '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992' && holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4' && holder.id.split('-')[0] !== '0xbb4972a578266e0800d98f4248d057d6f6cde2bf') {
               this.circulatingMarketCap += parseInt(holder.amount)
             }
             if (holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4') {

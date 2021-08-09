@@ -106,6 +106,12 @@
                   Roulette house
                 </a>
               </div>
+              <div v-else-if="holder.id === '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992'"
+                   class="w-2/3">
+                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
+                  Coinflip house
+                </a>
+              </div>
               <div v-else-if="holder.id === '0xfacdddf6f59abee55f19f47698356d9de036e871'"
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
@@ -276,6 +282,12 @@
                    class="w-full">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
                   Roulette house
+                </a>
+              </div>
+              <div v-else-if="holder.id === '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992'"
+                   class="w-full">
+                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
+                  Coinflip house
                 </a>
               </div>
               <div v-else-if="holder.id === '0x9aa78983e7e4ae0873235c44cae53bb63f594ca6'"

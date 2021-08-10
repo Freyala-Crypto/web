@@ -95,6 +95,15 @@
             <hr>
             <br>
             <p class="text-3xl lg:text-5xl font-bold text-primary-alt">
+              {{ $store.getters.graveyard.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }}
+            </p>
+            <p class="text-xl lg:text-3xl uppercase">
+              Tokens burnt
+            </p>
+            <br>
+            <hr>
+            <br>
+            <p class="text-3xl lg:text-5xl font-bold text-primary-alt">
               $ {{ parseFloat($store.getters.price).toFixed(3) }}
             </p>
             <p class="text-xl lg:text-3xl uppercase">

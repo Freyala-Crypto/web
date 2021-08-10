@@ -368,7 +368,6 @@ import axios from 'axios';
 const {Unit} = require("@harmony-js/utils");
 import LookingForTheseComponent from '@/components/LookingForThese'
 
-import {initWeb3} from "@/plugins/initWeb3";
 import FreyalaStakeAbi from "@/plugins/stakingArtifact.json";
 
 export default {
@@ -408,27 +407,8 @@ export default {
   async mounted() {
     this.loadHolders('XYA', this.skip, this.first);
 
-    let web3
-    try {
-      web3 = await initWeb3();
-    } catch (err) {
-      this.MMError = 'test';
-      this.loading = false;
-      return;
-    }
-
-    if (web3 === 'No MetaMask installed.') {
-      this.MMError = 'No MetaMask installed.';
-      return;
-    }
-
-    this.accounts = await web3.eth.getAccounts();
-    const networkId = await web3.eth.net.getId();
-    if (networkId !== 1666600000) {
-      this.MMError = "Please connect to the Harmony Mainnet";
-      this.loading = false;
-      return;
-    }
+    const Web3 = require('web3');
+    const web3 = new Web3(new Web3.providers.HttpProvider("https://api.s0.t.hmny.io/"));
 
     const freyalaStake = new web3.eth.Contract(FreyalaStakeAbi.abi, "0x861ef0cab3ab4a1372e7eda936668c8967f70110");
     this.totalStaked = parseInt(await freyalaStake.methods.totalStaked().call()) / 1000000000000000000

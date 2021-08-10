@@ -72,7 +72,7 @@
         </div>
 
         <div class="w-full flex flex-wrap mt-20 text-center">
-          <div class="w-full lg:w-1/3 mb-4 lg:mb-0">
+          <div class="w-full lg:w-1/2 mb-4 lg:mb-0">
             <p class="text-3xl lg:text-6xl font-bold text-primary-alt">
               {{ $store.getters.tokenSupply.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }}
             </p>
@@ -80,15 +80,23 @@
               Max. token supply
             </p>
           </div>
-          <div class="w-full lg:w-1/3 mb-4 lg:mb-">
+          <div class="w-full lg:w-1/2 mb-4 lg:mb-">
             <p class="text-3xl lg:text-6xl font-bold text-primary-alt">
               {{ $store.getters.currentSupply.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }}
             </p>
-            <p class="text-xl lg:text-xl uppercase text-white mt-8">
+            <p class="text-xl lg:text-3xl uppercase text-white mt-8">
               Circulating token supply
             </p>
           </div>
-          <div class="w-full lg:w-1/3 mb-4 lg:mb-0">
+          <div class="w-full lg:w-1/2 mb-4 lg:mb-0">
+            <p class="text-3xl lg:text-6xl font-bold text-primary-alt">
+              {{ $store.getters.graveyard.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }}
+            </p>
+            <p class="text-xl lg:text-3xl uppercase text-white mt-8">
+              Tokens burnt
+            </p>
+          </div>
+          <div class="w-full lg:w-1/2 mb-4 lg:mb-0">
             <p class="text-3xl lg:text-6xl font-bold text-primary-alt">
               $ {{ parseFloat($store.getters.price).toFixed(3) }}
             </p>

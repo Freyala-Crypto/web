@@ -12,7 +12,6 @@ import axios from 'axios'
 import HeaderComponent from '@/components/Header'
 import FooterComponent from '@/components/Footer'
 
-import {initWeb3} from "@/plugins/initWeb3";
 import FreyalaStakeAbi from "@/plugins/stakingArtifact.json";
 
 export default {
@@ -26,7 +25,8 @@ export default {
       circulatingMarketCap: 0,
       totalMarketCap: 0,
       first: 1000,
-      skip: 0
+      skip: 0,
+      graveyard: 0
     }
   },
   async mounted() {
@@ -38,28 +38,8 @@ export default {
     this.$store.commit('SET_PRICE', response.data.rates.buy_rate)
     this.loadHolders('XYA', this.skip, this.first);
 
-
-    let web3
-    try {
-      web3 = await initWeb3();
-    } catch (err) {
-      this.MMError = 'test';
-      this.loading = false;
-      return;
-    }
-
-    if (web3 === 'No MetaMask installed.') {
-      this.MMError = 'No MetaMask installed.';
-      return;
-    }
-
-    this.accounts = await web3.eth.getAccounts();
-    const networkId = await web3.eth.net.getId();
-    if (networkId !== 1666600000) {
-      this.MMError = "Please connect to the Harmony Mainnet";
-      this.loading = false;
-      return;
-    }
+    const Web3 = require('web3');
+    const web3 = new Web3(new Web3.providers.HttpProvider("https://api.s0.t.hmny.io/"));
 
     const freyalaStake = new web3.eth.Contract(FreyalaStakeAbi.abi, "0x861ef0cab3ab4a1372e7eda936668c8967f70110");
     this.totalStaked = parseInt(await freyalaStake.methods.totalStaked().call()) / 1000000000000000000
@@ -79,6 +59,9 @@ export default {
             }
             if (holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4') {
               this.totalMarketCap += parseInt(holder.amount)
+            }
+            if (holder.id.split('-')[0] === '0x000000000000000000000000000000000000dead' || holder.id.split('-')[0] === '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4') {
+              this.graveyard += parseInt(holder.amount)
             }
 
             holder.id = holder.id.split('-')[0]
@@ -104,6 +87,9 @@ export default {
             if (holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4') {
               this.totalMarketCap += parseInt(holder.amount)
             }
+            if (holder.id.split('-')[0] === '0x000000000000000000000000000000000000dead' || holder.id.split('-')[0] === '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4') {
+              this.graveyard += parseInt(holder.amount)
+            }
 
             holder.id = holder.id.split('-')[0]
           })
@@ -114,6 +100,7 @@ export default {
           } else {
             this.$store.commit('SET_CURRENT_SUPPLY', this.circulatingMarketCap)
             this.$store.commit('SET_TOKEN_SUPPLY', this.totalMarketCap)
+            this.$store.commit('SET_GRAVEYARD', this.graveyard)
 
             this.finishedFetchingHolders = true
           }

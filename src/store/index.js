@@ -16,6 +16,7 @@ export default new Vuex.Store({
     price: 0,
     tokenSupply: 0,
     currentSupply: 0,
+    graveyard: 0
   },
 
   getters: {
@@ -27,6 +28,9 @@ export default new Vuex.Store({
     },
     currentSupply(state) {
       return state.currentSupply
+    },
+    graveyard(state) {
+      return state.graveyard
     }
   },
 
@@ -40,6 +44,9 @@ export default new Vuex.Store({
     SET_CURRENT_SUPPLY(state, data) {
       state.currentSupply = data
     },
+    SET_GRAVEYARD(state, data) {
+      state.graveyard = data
+    }
   },
 
   actions: {

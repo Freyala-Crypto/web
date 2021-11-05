@@ -16,10 +16,14 @@ export default new Vuex.Store({
     price: 0,
     tokenSupply: 0,
     currentSupply: 0,
-    graveyard: 0
+    graveyard: 0,
+    loadingPrice: true
   },
 
   getters: {
+    loadingPrice(state) {
+      return state.loadingPrice
+    },
     price(state) {
       return state.price
     },
@@ -35,6 +39,9 @@ export default new Vuex.Store({
   },
 
   mutations: {
+    SET_LOADING_PRICE(state, data) {
+      state.loadingPrice = data
+    },
     SET_PRICE(state, data) {
       state.price = data
     },

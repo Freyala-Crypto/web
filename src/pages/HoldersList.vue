@@ -100,10 +100,22 @@
                   Freyala mines (JENNY)
                 </a>
               </div>
+              <div v-else-if="holder.id === '0x28d9475f6354091a49e20a897f6405a02ffd6836'"
+                   class="w-2/3">
+                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
+                  Roulette low stakes house
+                </a>
+              </div>
               <div v-else-if="holder.id === '0x038eb501cef9d37e1a418ba28f66bd535123a6e7'"
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Roulette house
+                  Roulette medium stakes house
+                </a>
+              </div>
+              <div v-else-if="holder.id === '0x328983c8331a8ad6f08036f2983a8268f9e0f46d'"
+                   class="w-2/3">
+                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
+                  Roulette high stakes house
                 </a>
               </div>
               <div v-else-if="holder.id === '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992'"
@@ -180,6 +192,10 @@
               <div v-else-if="holder.id === '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe'" class="w-1/6 text-right">-
               </div>
               <div v-else-if="holder.id === '0x000000000000000000000000000000000000dead'" class="w-1/6 text-right">-
+              </div>
+              <div v-else-if="holder.id === '0x28d9475f6354091a49e20a897f6405a02ffd6836'" class="w-1/6 text-right">-
+              </div>
+              <div v-else-if="holder.id === '0x328983c8331a8ad6f08036f2983a8268f9e0f46d'" class="w-1/6 text-right">-
               </div>
               <div v-else class="w-1/6 text-right">
                 {{ ((100 * parseFloat(holder.amount)) / parseFloat(circulatingMarketCap)).toFixed(2) }}%
@@ -278,10 +294,22 @@
                   Freyala supply
                 </a>
               </div>
+              <div v-else-if="holder.id === '0x28d9475f6354091a49e20a897f6405a02ffd6836'"
+                   class="w-full">
+                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
+                  Roulette low stakes house
+                </a>
+              </div>
               <div v-else-if="holder.id === '0x038eb501cef9d37e1a418ba28f66bd535123a6e7'"
                    class="w-full">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Roulette house
+                  Roulette medium stakes house
+                </a>
+              </div>
+              <div v-else-if="holder.id === '0x328983c8331a8ad6f08036f2983a8268f9e0f46d'"
+                   class="w-full">
+                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
+                  Roulette high stakes house
                 </a>
               </div>
               <div v-else-if="holder.id === '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992'"
@@ -330,6 +358,8 @@
               </div>
               <div v-if="holder.id === '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4'" class="w-full">-</div>
               <div v-else-if="holder.id === '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992'" class="w-full">-</div>
+              <div v-else-if="holder.id === '0x038eb501cef9d37e1a418ba28f66bd535123a6e7'" class="w-full">-</div>
+              <div v-else-if="holder.id === '0x28d9475f6354091a49e20a897f6405a02ffd6836'" class="w-full">-</div>
               <div v-else-if="holder.id === '0x038eb501cef9d37e1a418ba28f66bd535123a6e7'" class="w-full">-</div>
               <div v-else-if="holder.id === '0x194e7650fe17c2c478cd6d147620790c9e811c3f'" class="w-full">-</div>
               <div v-else-if="holder.id === '0xbb4972a578266e0800d98f4248d057d6f6cde2bf'" class="w-full">-</div>
@@ -424,7 +454,7 @@ export default {
               this.totalMarketCap += parseInt(this.rewardPool)
               holder.amount = this.totalStaked
             }
-            if (holder.id.split('-')[0] !== '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe' && holder.id.split('-')[0] !== '0x194e7650fe17c2c478cd6d147620790c9e811c3f' && holder.id.split('-')[0] !== '0x038eb501cef9d37e1a418ba28f66bd535123a6e7' && holder.id.split('-')[0] !== '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992' && holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4' && holder.id.split('-')[0] !== '0xbb4972a578266e0800d98f4248d057d6f6cde2bf') {
+            if (holder.id.split('-')[0] !== '0x28d9475f6354091a49e20a897f6405a02ffd6836' && holder.id.split('-')[0] !== '0x328983c8331a8ad6f08036f2983a8268f9e0f46d' && holder.id.split('-')[0] !== '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe' && holder.id.split('-')[0] !== '0x194e7650fe17c2c478cd6d147620790c9e811c3f' && holder.id.split('-')[0] !== '0x038eb501cef9d37e1a418ba28f66bd535123a6e7' && holder.id.split('-')[0] !== '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992' && holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4' && holder.id.split('-')[0] !== '0xbb4972a578266e0800d98f4248d057d6f6cde2bf') {
               this.circulatingMarketCap += parseInt(holder.amount)
             }
             if (holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4') {
@@ -455,7 +485,7 @@ export default {
               this.totalMarketCap += parseInt(this.rewardPool)
               holder.amount = this.totalStaked
             }
-            if (holder.id.split('-')[0] !== '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe' && holder.id.split('-')[0] !== '0x194e7650fe17c2c478cd6d147620790c9e811c3f' && holder.id.split('-')[0] !== '0x038eb501cef9d37e1a418ba28f66bd535123a6e7' && holder.id.split('-')[0] !== '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992' && holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4' && holder.id.split('-')[0] !== '0xbb4972a578266e0800d98f4248d057d6f6cde2bf') {
+            if (holder.id.split('-')[0] !== '0x28d9475f6354091a49e20a897f6405a02ffd6836' && holder.id.split('-')[0] !== '0x328983c8331a8ad6f08036f2983a8268f9e0f46d' && holder.id.split('-')[0] !== '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe' && holder.id.split('-')[0] !== '0x194e7650fe17c2c478cd6d147620790c9e811c3f' && holder.id.split('-')[0] !== '0x038eb501cef9d37e1a418ba28f66bd535123a6e7' && holder.id.split('-')[0] !== '0x2b9f62ac65bcf956b6e15ec427456b2cf3a51992' && holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4' && holder.id.split('-')[0] !== '0xbb4972a578266e0800d98f4248d057d6f6cde2bf') {
               this.circulatingMarketCap += parseInt(holder.amount)
             }
             if (holder.id.split('-')[0] !== '0x000000000000000000000000000000000000dead' && holder.id.split('-')[0] !== '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4') {

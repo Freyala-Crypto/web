@@ -23,7 +23,7 @@
             Freyala ($XYA) is an HRC-20 token built on the Harmony blockchain.
             <br>
             <br>
-            The idea behind this project was to create a beginner-friendly means of using crypto with the power of
+            The idea behind this project is to create a beginner-friendly means of using crypto with the power of
             low-cost and fast transactions on the Harmony blockchain.
             <br>
             <br>
@@ -45,13 +45,13 @@
 
         <div class="w-full lg:w-3/4 mt-12 lg:pr-20">
           <ul class="text-xl lg:text-3xl text-white font-extralight">
-            <li>100M - In-game rewards, farming and casino</li>
-            <li>70M - MISC (potential partnerships, new swaps or future burns)</li>
-            <li>50M - Community projects, events, hackathons and bounties</li>
-            <li>15M - Sales (finished)</li>
-            <li>5M - Faucet fund</li>
-            <li>5.5M - Marketing fund</li>
-            <li>4.5M - Initial development fund</li>
+            <li>150M - In-game rewards</li>
+            <li>52M - Upcoming partnerships, farming and casino</li>
+            <li>21M - Community projects, events, hackathons and bounties</li>
+            <li>15M - Initial coin offering</li>
+            <li>4.5M - Development fund</li>
+            <li>2.5M - Seed fund investors (span over a year)</li>
+            <li>1M - Faucet fund</li>
           </ul>
         </div>
         <div class="w-full lg:w-1/4 mt-12">
@@ -74,15 +74,15 @@
         <div class="w-full flex flex-wrap mt-20 text-center">
           <div class="w-full lg:w-1/2 mb-4 lg:mb-0">
             <p class="text-3xl lg:text-6xl font-bold text-primary-alt">
-              {{ $store.getters.tokenSupply.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }}
+              {{ $store.getters.loadingPrice ? 'Fetching...' : $store.getters.tokenSupply.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }}
             </p>
             <p class="text-xl lg:text-3xl uppercase text-white mt-8">
-              Max. token supply
+              Total token supply
             </p>
           </div>
           <div class="w-full lg:w-1/2 mb-4 lg:mb-">
             <p class="text-3xl lg:text-6xl font-bold text-primary-alt">
-              {{ $store.getters.currentSupply.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }}
+              {{ $store.getters.loadingPrice ? 'Fetching...' : $store.getters.currentSupply.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }}
             </p>
             <p class="text-xl lg:text-3xl uppercase text-white mt-8">
               Circulating token supply
@@ -90,7 +90,7 @@
           </div>
           <div class="w-full lg:w-1/2 mb-4 lg:mb-0">
             <p class="text-3xl lg:text-6xl font-bold text-primary-alt">
-              {{ $store.getters.graveyard.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }}
+              {{ $store.getters.loadingPrice ? 'Fetching...' : $store.getters.graveyard.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }}
             </p>
             <p class="text-xl lg:text-3xl uppercase text-white mt-8">
               Tokens burnt
@@ -98,7 +98,7 @@
           </div>
           <div class="w-full lg:w-1/2 mb-4 lg:mb-0">
             <p class="text-3xl lg:text-6xl font-bold text-primary-alt">
-              $ {{ parseFloat($store.getters.price).toFixed(3) }}
+              $ {{ $store.getters.loadingPrice ? 'Fetching...' : parseFloat($store.getters.price).toFixed(3) }}
             </p>
             <p class="text-xl lg:text-3xl uppercase text-white mt-8">
               Current price
@@ -195,7 +195,7 @@
 
         <p class="text-xl lg:text-3xl w-full lg:w-4/5 mx-auto font-extralight mt-8 text-center">
           CryptIDs, also known as ‘Harmons’, are monster collectible NFTs created with distinctive properties, giving
-          each one a unique combination of stats and abilities (hence different strengths and weaknesses). Some CryptIDs
+          each one a unique combination of stats and abilities (hence different strengths and weaknesses). Some Harmons
           are simply stronger and more valuable.
         </p>
 
@@ -211,8 +211,9 @@
             <br>
 
             <p class="text-2xl lg:text-3xl font-extralight">
-              Users can slowly unlock more CryptIDs tokens by staking XYA. These tokens can be used to open booster
-              packs containing a small number of monsters tentatively named Harmons.
+              Users can slowly unlock more Harmons tokens by staking XYA, playing minigames and more upcoming ways.
+              These tokens can be used to open booster packs containing a small number of monsters tentatively named
+              Harmons.
             </p>
 
             <br>
@@ -225,8 +226,13 @@
             <br>
 
             <p class="text-2xl lg:text-3xl font-extralight">
-              Users can slowly unlock more CryptIDs tokens by staking XYA. These tokens can be used to open booster
-              packs containing a small number of monsters tentatively named Harmons.
+              All Harmons will have their own unique forms and the following rarities: Common, Rare and
+              Epic. Players will be able to upgrade their Harmons to the next rarity level by merging the same
+              base creature multiple times. Some Harmons will have an extra rarity: Legendary.
+              <br>
+              <br>
+              Legendary variants are limited to a certain group of Harmons and are relatively difficult to
+              collect, with them being substantially more difficult to obtain or craft.
             </p>
 
             <br>

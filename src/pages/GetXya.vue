@@ -38,30 +38,15 @@
           </div>
           <div class="w-full flex flex-wrap mt-16">
             <div class="flex w-full lg:w-1/4">
-              <img class="w-12 lg:w-32 mx-auto" src="/images/SVG/mochiswap.svg" alt="Mochiswap">
+              <img class="w-12 lg:w-32 mx-auto" src="/images/SVG/dfk.png" alt="Defi Kingdoms">
             </div>
-            <a href="https://one.mochiswap.io/#/swap?outputCurrency=0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4"
-               target="_blank" class="flex flex-wrap w-3/4 mt-8 mx-auto">
+            <a href="https://game.defikingdoms.com/#/" target="_blank" class="flex flex-wrap w-3/4 mt-8 mx-auto">
               <p class="w-full hidden lg:block text-2xl lg:text-5xl font-extralight">
-                MochiSwap
+                Defi Kingdoms
               </p>
               <img class="my-auto w-20 hidden lg:block inline" src="/images/SVG/arrow-right.svg" alt="Arrow right">
               <span class="uppercase my-auto mx-auto w-full lg:w-auto lg:ml-4 text-2xl font-semibold text-primary-alt">
-                Mochiswap
-              </span>
-            </a>
-          </div>
-          <div class="w-full flex flex-wrap mt-16">
-            <div class="flex w-full lg:w-1/4">
-              <img class="w-12 lg:w-32 mx-auto" src="/images/SVG/openswap.svg" alt="Openswap">
-            </div>
-            <a href="https://app.openswap.one/#/" target="_blank" class="flex flex-wrap w-3/4 mt-8 mx-auto">
-              <p class="w-full hidden lg:block text-2xl lg:text-5xl font-extralight">
-                OpenSwap
-              </p>
-              <img class="my-auto w-20 hidden lg:block inline" src="/images/SVG/arrow-right.svg" alt="Arrow right">
-              <span class="uppercase my-auto mx-auto w-full lg:w-auto lg:ml-4 text-2xl font-semibold text-primary-alt">
-                Openswap
+                Defi Kingdoms
               </span>
             </a>
           </div>

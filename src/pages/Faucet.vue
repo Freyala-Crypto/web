@@ -31,14 +31,11 @@
             </p>
           </div>
           <div v-if="msg === ''" class="w-full text-center">
-            <button @click="requestFromFaucet" id="submit" class="tracking-widest uppercase bg-gradient-to-r from-primary to-secondary py-4 px-8 rounded-md text-white text-xl font-semibold">
-              Finish your daily quest!
+            <button id="submit" class="tracking-widest uppercase bg-gradient-to-r from-primary to-secondary py-4 px-8 rounded-md text-white text-xl font-semibold">
+              The faucet is currently empty.
             </button>
           </div>
         </div><div class="w-full text-center">
-        <small>
-          <em>The soup kitchen will send you 0.75 XYA on request.</em>
-        </small>
       </div>
       </div>
     </section>

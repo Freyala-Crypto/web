@@ -246,6 +246,10 @@ export default {
     metaMaskAccount: ''
   }),
 
+  mounted() {
+    this.connectToMetamask()
+  },
+
   methods: {
     async updateAll() {
       await Promise.all([

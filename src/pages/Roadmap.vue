@@ -1,7 +1,7 @@
 <template>
   <main>
     <section id="section-i-1" class="border-b-4 border-primary-alt"
-             style="background: url('/images/SVG/homepage-bg-top.svg') no-repeat top right; background-size: 27%;">
+             style="background: url('/images/SVG/homepage-bg-top.svg') no-repeat top right;;">
       <div class="container mx-auto text-center pt-24 lg:pt-48">
         <h1 class="text-3xl lg:text-7xl text-primary-alt font-semibold pb-10 lg:pb-20">
           Roadmap
@@ -27,7 +27,6 @@
           <br>
           <br>
 
-          <div class="bg-primary-alt rounded-2xl text-4xl text-white w-48 mx-auto p-4"> FINISHED</div>
         </div>
 
         <div class="timeline-container">
@@ -127,6 +126,29 @@
                 </p>
               </div>
             </div>
+            <div class="container cnt-finished right">
+              <div class="content">
+                <h2 class="text-2xl md:text-4xl">The Rise of Democracy (ON-CHAIN VOTING)</h2>
+                <br>
+                <p>
+                  To incentivize the Freyfolk to embrace the power of XYA, Regent Carroway allowed the public to enter a
+                  democratic committee. People who held XYA openly were allowed to join this group, then discuss with
+                  other committee members and vote for certain proposals. Those with more XYA were deemed worthier in the
+                  regent’s eyes, with their opinion being more valuable.
+                </p>
+              </div>
+            </div>
+            <div class="container cnt-finished left">
+              <div class="content">
+                <h2 class="text-2xl md:text-4xl">Sir Reginald’s Origin (DISCORD BOT STAKING)</h2>
+                <br>
+                <p>
+                  Apart from his allegiance to the regent, Sir Reginald was also known to help administrate certain wagers
+                  for Luderion amongst certain members of the Freyfolk. Those that became wealthy would always reimburse
+                  Reginald handsomely, with him even offering his private services for XYA extraction.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -141,7 +163,7 @@
               <img class="h-24 mx-auto" src="/images/SVG/loading-working-on.svg" alt="Currently working on logo">
             </div>
             <div class="w-full lg:w-2/5 text-center lg:text-left my-auto">
-              <p class="text-3xl text-white font-semibold">Sir Reginald’s Origin</p>
+              <p class="text-3xl text-white font-semibold">Aggregation of materials</p>
             </div>
           </div>
         </div>
@@ -149,48 +171,20 @@
     </section>
 
     <section id="section-i-3" class="bg-black pb-24 mb-24">
-      <div class="pt-20 text-center">
-        <p class="text-white mx-auto text-center">August</p>
-        <div class="bg-gray rounded-2xl text-4xl text-white w-48 mx-auto p-4"> Chapter 2</div>
-      </div>
-
       <div class="timeline-container text-white">
         <div class="timeline">
-<!--          <div class="container right">-->
+<!--          <div class="container left">-->
 <!--            <div class="content">-->
-<!--              <h2 class="text-2xl md:text-4xl">Sir Reginald’s Origin (DISCORD BOT STAKING)</h2>-->
+<!--              <h2 class="text-2xl md:text-4xl">Aggregation of materials (DEX AGGREGATOR)</h2>-->
 <!--              <br>-->
 <!--              <p>-->
-<!--                Apart from his allegiance to the regent, Sir Reginald was also known to help administrate certain wagers-->
-<!--                for Luderion amongst certain members of the Freyfolk. Those that became wealthy would always reimburse-->
-<!--                Reginald handsomely, with him even offering his private services for XYA extraction.-->
+<!--                With many of the Freyfolk growing tired of the regent’s discretion of the mystical ores, merchants soon-->
+<!--                began roaming the streets of Freyala, bartering away their valuables and XYA; they would offer deals of-->
+<!--                the best value. How these traders were able to obtain such copious amounts of XYA were never answered…-->
+<!--                or dared to be asked.-->
 <!--              </p>-->
 <!--            </div>-->
 <!--          </div>-->
-          <div class="container right">
-            <div class="content">
-              <h2 class="text-2xl md:text-4xl">The Rise of Democracy (ON-CHAIN VOTING)</h2>
-              <br>
-              <p>
-                To incentivize the Freyfolk to embrace the power of XYA, Regent Carroway allowed the public to enter a
-                democratic committee. People who held XYA openly were allowed to join this group, then discuss with
-                other committee members and vote for certain proposals. Those with more XYA were deemed worthier in the
-                regent’s eyes, with their opinion being more valuable.
-              </p>
-            </div>
-          </div>
-          <div class="container left">
-            <div class="content">
-              <h2 class="text-2xl md:text-4xl">Aggregation of materials (DEX AGGREGATOR)</h2>
-              <br>
-              <p>
-                With many of the Freyfolk growing tired of the regent’s discretion of the mystical ores, merchants soon
-                began roaming the streets of Freyala, bartering away their valuables and XYA; they would offer deals of
-                the best value. How these traders were able to obtain such copious amounts of XYA were never answered…
-                or dared to be asked.
-              </p>
-            </div>
-          </div>
           <div class="container right">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">Expansion of the riches (CASINO EXPANSION)</h2>
@@ -205,28 +199,6 @@
           </div>
           <div class="container left">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">New Ways to Enter (DESKTOP APP)</h2>
-              <br>
-              <p>
-                Apart from the inn, Regent Carroway granted noblemen and others of high status further access to the
-                Freyala kingdom. By offering their insightful knowledge and knowledge to the monarch, the regent made
-                use of this help to concoct an experimental and unstable form of XYA, known as ‘enhanced XYA’ in his
-                quest for immortality and ultimate power.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pt-20 text-center">
-        <p class="text-white mx-auto text-center">September</p>
-        <div class="bg-gray rounded-2xl text-4xl text-white w-48 mx-auto p-4"> Chapter 3</div>
-      </div>
-
-      <div class="timeline-container text-white">
-        <div class="timeline">
-          <div class="container right">
-            <div class="content">
               <h2 class="text-2xl md:text-4xl">Sir Reginald's Counsel (DISCORD BOT VOTING)</h2>
               <br>
               <p>
@@ -237,7 +209,7 @@
               </p>
             </div>
           </div>
-          <div class="container left">
+          <div class="container right">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">Freyala's Development (PLOTS)</h2>
               <br>
@@ -249,9 +221,9 @@
               </p>
             </div>
           </div>
-          <div class="container right">
+          <div class="container left">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">Life Beyond the Walls (CRYPTIDS TECHNICAL ALPHA)</h2>
+              <h2 class="text-2xl md:text-4xl">Life Beyond the Walls (CRYPTIDS TECHNICAL ALPHA NON-CRYPTO DEMO)</h2>
               <br>
               <p>
                 The civilians of Freyala soon discovered the existence of Harmons, wild creatures that had roamed the
@@ -261,17 +233,7 @@
               </p>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="pt-20 text-center">
-        <p class="text-white mx-auto text-center">October</p>
-        <div class="bg-gray rounded-2xl text-4xl text-white w-48 mx-auto p-4"> Chapter 4</div>
-      </div>
-
-      <div class="timeline-container text-white">
-        <div class="timeline">
-          <div class="container left">
+          <div class="container right">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">Beyond Freyala (CROSS-PROJECT PLOTS)</h2>
               <br>
@@ -282,7 +244,7 @@
               </p>
             </div>
           </div>
-          <div class="container right">
+          <div class="container left">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">The Exceptional Butler (DISCORD BOT EXPANSION)</h2>
               <br>
@@ -294,7 +256,7 @@
               </p>
             </div>
           </div>
-          <div class="container left">
+          <div class="container right">
             <div class="content">
               <h2 class="text-2xl md:text-4xl">Markets of Trade (BETA NFT MARKETPLACE)</h2>
               <br>

@@ -22,10 +22,6 @@
           </li>
           <li class="tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold"
               :class="`${this.$route.name === 'homepage' ? 'text-white' : 'text-black'}`">
-            <router-link :to="{ name: 'get-xya' }">Get XYA</router-link>
-          </li>
-          <li class="tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold"
-              :class="`${this.$route.name === 'homepage' ? 'text-white' : 'text-black'}`">
             <router-link :to="{ name: 'roadmap' }">Roadmap</router-link>
           </li>
           <li class="tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold"

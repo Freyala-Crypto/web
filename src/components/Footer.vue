@@ -19,11 +19,11 @@
                 Live Chart
               </router-link>
             </li>
-            <li class="mb-6">
-              <router-link :to="{ name: 'holders-list' }">
-                Holders List
-              </router-link>
-            </li>
+<!--            <li class="mb-6">-->
+<!--              <router-link :to="{ name: 'holders-list' }">-->
+<!--                Holders List-->
+<!--              </router-link>-->
+<!--            </li>-->
             <li class="mb-6">
               <router-link :to="{ name: 'roadmap' }">
                 Roadmap
@@ -47,14 +47,8 @@
               </a>
             </li>
             <li class="mb-6">
-              <a href="https://one.mochiswap.io/#/swap?outputCurrency=0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4"
-                 target="_blank">
-                Mochiswap
-              </a>
-            </li>
-            <li class="mb-6">
-              <a href="https://app.openswap.one/#/" target="_blank">
-                Openswap
+              <a href="https://game.defikingdoms.com/#/" target="_blank">
+                Defi Kingdoms
               </a>
             </li>
             <li class="mb-6">

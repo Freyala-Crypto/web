@@ -19,7 +19,7 @@
 
               <br>
 
-              <a href="https://www.freyala.com/images/XYA_Whitepaper_V1.0.pdf" target="_blank">
+              <a href="https://docs.freyala.com/freyala" target="_blank">
                 <button
                     class="uppercase bg-gradient-to-r from-primary to-secondary py-4 px-8 rounded-md text-white text-lg lg:text-xl text-semibold">
                   Read our whitepaper

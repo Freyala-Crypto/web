@@ -13,7 +13,7 @@
       <div class="container mx-auto py-12 lg:py-24">
         <div class="w-full xl:w-3/4">
           <p class="text-2xl lg:text-5xl font-extralight">
-            What’s planned for Freyala in <span class="font-semibold text-primary-alt">2021</span> ?
+            What’s planned for Freyala in <span class="font-semibold text-primary-alt">2022</span> ?
           </p>
 
           <br>

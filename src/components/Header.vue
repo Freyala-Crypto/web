@@ -16,18 +16,6 @@
               </button>
             </a>
           </li>
-          <li class="tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold"
-              :class="`${this.$route.name === 'homepage' ? 'text-white' : 'text-black'}`">
-            <router-link :to="{ name: 'stake' }">Stake it!</router-link>
-          </li>
-          <li class="tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold"
-              :class="`${this.$route.name === 'homepage' ? 'text-white' : 'text-black'}`">
-            <router-link :to="{ name: 'roadmap' }">Roadmap</router-link>
-          </li>
-          <li class="tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold"
-              :class="`${this.$route.name === 'homepage' ? 'text-white' : 'text-black'}`">
-            <router-link :to="{ name: 'info' }">Info</router-link>
-          </li>
         </ul>
       </div>
       <div class="w-1/2 md:w-5/6 text-right menu text-white block lg:hidden style-padding z-50">
@@ -51,18 +39,6 @@
           <ul class="py-24 border-b-4 border-primary-alt">
             <li class="w-full tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold" @click="changeMobilemenu()">
               <router-link :to="{ name: 'homepage' }">Home</router-link>
-            </li>
-            <li class="w-full tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold" @click="changeMobilemenu()">
-              <router-link :to="{ name: 'info' }">Info</router-link>
-            </li>
-            <li class="w-full tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold" @click="changeMobilemenu()">
-              <router-link :to="{ name: 'roadmap' }">Roadmap</router-link>
-            </li>
-            <li class="w-full tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold" @click="changeMobilemenu()">
-              <router-link :to="{ name: 'team' }">Team</router-link>
-            </li>
-            <li class="w-full tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold" @click="changeMobilemenu()">
-              <router-link :to="{ name: 'get-xya' }">Get XYA</router-link>
             </li>
             <li class="w-full tracking-widest uppercase px-3 xl:px-6 py-4 text-base xl:text-xl font-semibold" @click="changeMobilemenu()">
               <router-link :to="{ name: 'stake' }">Stake it!</router-link>

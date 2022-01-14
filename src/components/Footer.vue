@@ -6,32 +6,12 @@
       </div>
       <div class="w-full lg:w-1/2 flex flex-wrap my-auto ml-auto mt-8 lg:mt-0 text-center lg:text-left">
         <div class="w-full lg:w-1/3 text-xl lg:text-2xl">
-          <p class="font-semibold text-primary-alt mb-6">Top Links</p>
+          <p class="font-semibold text-primary-alt mb-6">Charts!</p>
 
           <ul>
             <li class="mb-6">
-              <router-link :to="{ name: 'faucet' }">
-                Faucet
-              </router-link>
-            </li>
-            <li class="mb-6">
               <router-link :to="{ name: 'chart' }">
                 Live Chart
-              </router-link>
-            </li>
-<!--            <li class="mb-6">-->
-<!--              <router-link :to="{ name: 'holders-list' }">-->
-<!--                Holders List-->
-<!--              </router-link>-->
-<!--            </li>-->
-            <li class="mb-6">
-              <router-link :to="{ name: 'roadmap' }">
-                Roadmap
-              </router-link>
-            </li>
-            <li class="mb-6">
-              <router-link :to="{ name: 'team' }">
-                Team
               </router-link>
             </li>
           </ul>

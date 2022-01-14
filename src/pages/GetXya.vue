@@ -123,9 +123,7 @@
             </div>
 
             <p class="text-center font-semibold text-2xl lg:text-4xl text-white mt-12">
-              <router-link :to="{ name: 'stake' }">
-                Stake & Earn XYA!
-              </router-link>
+              Stake & Earn XYA!
             </p>
           </div>
         </div>

@@ -76,12 +76,11 @@
           </div>
           <div class="w-full lg:w-2/3">
             <p class="text-primary-alt font-semibold text-3xl">
-              LEAD DEVELOPER & CO-FOUNDER
+              GAME DEVELOPER
             </p>
             <br>
             <p class="text-white font-extralight text-2xl">
-              Tailchakra oversees the majority of development projects on Freyala, and is well-versed in backend,
-              frontend and website development. Tailchakra handles the Freyala community development bounties as well.
+              Tailchakra has been a part of the project from the start. Undertaking the CryptIDs game and overviewing world updates.
             </p>
           </div>
         </div>
@@ -102,7 +101,7 @@
           </div>
           <div class="w-full lg:w-2/3">
             <p class="text-primary-alt font-semibold text-3xl">
-              DEVELOPER
+              BOT DEVELOPER
             </p>
             <br>
             <p class="text-white font-extralight text-2xl">
@@ -171,26 +170,24 @@
             <div class="absolute w-64 flex text-center h-full">
               <div class="m-auto">
                 <p class="text-white text-9xl font-semibold">
-                  Li
+                  Fl
                 </p>
                 <br>
                 <p class="text-white text-3xl font-semibold">
-                  LittleShark
+                  Flu
                 </p>
               </div>
             </div>
           </div>
-          <div class="w-full lg:w-2/3">
-            <p class="text-primary-alt font-semibold text-3xl">
-              DESIGNER
-            </p>
-            <br>
-            <p class="text-white font-extralight text-2xl">
-              LittleShark has been working as a graphic designer for the past fifteen years, being involved in several
-              projects including Marvel. He creates visual infographics, user interface concept designs and overall
-              media for Freyala.
-            </p>
-          </div>
+<!--          <div class="w-full lg:w-2/3">-->
+<!--            <p class="text-primary-alt font-semibold text-3xl">-->
+<!--              AMBASSADOR-->
+<!--            </p>-->
+<!--            <br>-->
+<!--            <p class="text-white font-extralight text-2xl">-->
+<!--              Flu is Harmony's cowboy, the absolute treasure. Flu is Freyala's proud ambassador, taking care of external relations.-->
+<!--            </p>-->
+<!--          </div>-->
         </div>
 
       </div>

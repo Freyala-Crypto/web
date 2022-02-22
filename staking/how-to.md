@@ -8,11 +8,11 @@ description: >-
 
 ## How do you stake?
 
-Since Freyala uses the 'single staking' approach, you can earn passive income (in the form of $XYA as rewards) by holding. There are two ways to do stake:
+Since GameFi Crossing uses the 'single staking' approach, you can earn passive income (in the form of $XYA as rewards) by holding. There are two ways to do stake:
 
-APP - Connect your wallet on https://world.freyala.com/ and go to the 'Extraction Site'. There you can stake and claim your rewards, whilst also viewing your wallet balance on the app.
+APP - Connect your wallet on https://world.gameficrossing.com/ and go to the 'Extraction Site'. There you can stake and claim your rewards, whilst also viewing your wallet balance on the app.
 
-WEBSITE - Go to https://freyala.com/stake and connect your MetaMask. You can then stake all, unstake or claim your XYA.
+WEBSITE - Go to https://gameficrossing.com/stake and connect your MetaMask. You can then stake all, unstake or claim your XYA.
 
 Yearly returns of staking are approximately 20-22%, depending on compounding.
 

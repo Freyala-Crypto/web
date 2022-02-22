@@ -13,14 +13,14 @@
       <div class="container mx-auto py-12 lg:py-24">
         <div class="w-full xl:w-3/4">
           <p class="text-2xl lg:text-5xl font-extralight">
-            What’s planned for Freyala in <span class="font-semibold text-primary-alt">2022</span> ?
+            What’s planned for GameFi Crossing in <span class="font-semibold text-primary-alt">2022</span> ?
           </p>
 
           <br>
           <br>
 
           <p class="text-2xl lg:text-4xl font-extralight">
-            Below is the current roadmap for Freyala planned for 2021. This list is subject to change and may be
+            Below is the current roadmap for GameFi Crossing planned for 2021. This list is subject to change and may be
             updated with updates and/or future milestones.
           </p>
 
@@ -37,7 +37,7 @@
                 <br>
                 <p>
                   Led by Regent Carroway of the monarch, the settlers spent countless years exploring the world of
-                  Freyala, before finding the perfect location to call their home. The Freyfolk lived in peace and grew
+                  GameFi Crossing, before finding the perfect location to call their home. The Freyfolk lived in peace and grew
                   their civilization. After a mining excavation by Payne’s Crew, they uncovered a mystical ore unlike
                   anything else. The regent named these crystals ‘XYA’ and this was the very beginning.
                 </p>
@@ -98,7 +98,7 @@
                 <p>
                   Regent Carroway officially appointed Sir Reginald his butler, who had served the Carroway family for
                   his entire lifetime. Carroway entrusted his loyal butler with all his secrets, handing him the keys to
-                  the kingdom of Freyala.
+                  the kingdom of GameFi Crossing.
                 </p>
               </div>
             </div>
@@ -108,7 +108,7 @@
                 <br>
                 <p>
                   Regent Carroway was determined to start a new era of power and domination for the Freyfolk. Noticing the
-                  natural power emanating from the world of Freyala, the regent decided that XYA was the key to
+                  natural power emanating from the world of GameFi Crossing, the regent decided that XYA was the key to
                   understanding these unknown forces and obtaining balance. The settlement was rebuilt and reborn, as the
                   Freyfolk integrated these crystals into their machines, structures and everyday lives.
                 </p>
@@ -179,7 +179,7 @@
 <!--              <br>-->
 <!--              <p>-->
 <!--                With many of the Freyfolk growing tired of the regent’s discretion of the mystical ores, merchants soon-->
-<!--                began roaming the streets of Freyala, bartering away their valuables and XYA; they would offer deals of-->
+<!--                began roaming the streets of GameFi Crossing, bartering away their valuables and XYA; they would offer deals of-->
 <!--                the best value. How these traders were able to obtain such copious amounts of XYA were never answered…-->
 <!--                or dared to be asked.-->
 <!--              </p>-->
@@ -211,10 +211,10 @@
           </div>
           <div class="container right">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">Freyala's Development (PLOTS)</h2>
+              <h2 class="text-2xl md:text-4xl">GameFi Crossing's Development (PLOTS)</h2>
               <br>
               <p>
-                The Freyfolk wanted to explore outside these walls and explore everything the world of Freyala had to
+                The Freyfolk wanted to explore outside these walls and explore everything the world of GameFi Crossing had to
                 offer. Wealthy individuals purchased plots of land to build their own grandiose homes and structures.
                 Adventurers in particular would collect mementos and objects from expeditions to customize their land,
                 while others would purchase curated lucrative decorations.
@@ -226,7 +226,7 @@
               <h2 class="text-2xl md:text-4xl">Life Beyond the Walls (CRYPTIDS TECHNICAL ALPHA NON-CRYPTO DEMO)</h2>
               <br>
               <p>
-                The civilians of Freyala soon discovered the existence of Harmons, wild creatures that had roamed the
+                The civilians of GameFi Crossing soon discovered the existence of Harmons, wild creatures that had roamed the
                 earth for thousands of years. Regent Carroway ordered the immediate capture of any Harmon on sight and
                 wanted to fully harness their power. Some members of the Freyfolk decided to covertly harvest their own
                 Harmons, keeping them hidden away from the monarch using them for underground battles.
@@ -235,7 +235,7 @@
           </div>
           <div class="container right">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">Beyond Freyala (CROSS-PROJECT PLOTS)</h2>
+              <h2 class="text-2xl md:text-4xl">Beyond GameFi Crossing (CROSS-PROJECT PLOTS)</h2>
               <br>
               <p>
                 Merchants from other settlements soon began purchasing their own plots of land, establishing their own
@@ -273,7 +273,7 @@
 
       <div class="py-12">
         <p class="w-full lg:w-1/2 text-center mx-auto text-white font-extralight text-2xl lg:text-3xl px-8 lg:px-0">
-          Freyala is still in the very early stages of development, and there are many plans for the expansion of our
+          GameFi Crossing is still in the very early stages of development, and there are many plans for the expansion of our
           ecosystem.
         </p>
       </div>
@@ -307,7 +307,7 @@
             <div class="w-full lg:w-1/4 flex flex-wrap mt-8 lg:mt-16 mb-8">
               <img class="h-12 lg:h-24 mx-auto mb-8" src="/images/SVG/twitter.svg" alt="Discord">
               <div class="w-full">
-                <a href="https://twitter.com/freyalacrypto" target="_blank">
+                <a href="https://twitter.com/gameficrossing" target="_blank">
                   <img class="my-auto w-20 inline" src="/images/SVG/arrow-right-white.svg" alt="Arrow right">
                   <span class="uppercase ml-4 text-2xl font-semibold text-white">
                     Twitter
@@ -318,7 +318,7 @@
             <div class="w-full lg:w-1/4 flex flex-wrap mt-8 lg:mt-16 mb-8">
               <img class="h-12 lg:h-24 mx-auto mb-8" src="/images/SVG/telegram.svg" alt="Discord">
               <div class="w-full">
-                <a href="https://t.me/freyalacrypto" target="_blank">
+                <a href="https://t.me/gameficrossing" target="_blank">
                   <img class="my-auto w-20 inline" src="/images/SVG/arrow-right-white.svg" alt="Arrow right">
                   <span class="uppercase ml-4 text-2xl font-semibold text-white">
                     Telegram

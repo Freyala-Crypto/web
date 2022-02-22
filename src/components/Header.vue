@@ -3,16 +3,16 @@
     <div class="container mx-auto flex flex-wrap pt-8">
       <div class="w-1/2 lg:w-1/5">
         <router-link :to="{ name: 'homepage' }">
-          <img src="/images/SVG/logo.svg" alt="Freyala logo" class="w-full">
+          <img src="/images/PNG/GFXAvatar.png" alt="GameFi Crossing logo" class="w-1/3" style="max-width: 150px">
         </router-link>
       </div>
       <div class="hidden lg:block w-4/5 my-auto text-right">
         <ul>
           <li class="uppercase pl-6">
-            <a href="https://world.freyala.com/" target="_blank">
+            <a href="https://world.gameficrossing.com/" target="_blank">
               <button
                   class="tracking-widest uppercase bg-gradient-to-r from-primary to-secondary py-4 px-8 rounded-md text-white text-xl font-semibold">
-                Enter Freyala
+                Enter the world
               </button>
             </a>
           </li>
@@ -44,10 +44,10 @@
               <router-link :to="{ name: 'stake' }">Stake it!</router-link>
             </li>
             <li class="w-full uppercase" @click="changeMobilemenu()">
-              <a href="https://world.freyala.com/" target="_blank">
+              <a href="https://world.gameficrossing.com/" target="_blank">
                 <button
                     class="tracking-widest uppercase bg-gradient-to-r from-primary to-secondary py-4 px-8 rounded-md text-white text-xl font-semibold">
-                  Enter Freyala
+                  Enter GameFi Crossing
                 </button>
               </a>
             </li>

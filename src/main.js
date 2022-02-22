@@ -14,7 +14,7 @@ Vue.use(VShowSlide)
 new Vue({
   head: {
     title: {
-      inner: 'Freyala'
+      inner: 'GameFi Crossing'
     }
   },
   render: h => h(App),

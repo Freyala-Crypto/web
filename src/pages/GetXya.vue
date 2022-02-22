@@ -79,8 +79,8 @@
                 </div>
                 <div class="w-full lg:w-5/6 lg:pl-8">
                   Add the Metamask Wallet extension to your Chrome browser and connect it to the Harmony network by
-                  following these instructions: Metamask wallet documentation or use the Freyala wallet over at
-                  https://app.freyala.com/
+                  following these instructions: Metamask wallet documentation or use the GameFi Crossing wallet over at
+                  https://app.gameficrossing.com/
                 </div>
               </div>
               <div class="text-white flex flex-wrap mt-12">
@@ -117,7 +117,7 @@
                 <div class="w-full lg:w-5/6 lg:pl-8">
                   Add your XYA to the liquidity pool to help the network, or wait for staking to be released to earn
                   more
-                  Freyala ecosystems tokens!
+                  GameFi Crossing ecosystems tokens!
                 </div>
               </div>
             </div>

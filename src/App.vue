@@ -13,7 +13,7 @@ import Web3 from 'web3'
 import HeaderComponent from '@/components/Header'
 import FooterComponent from '@/components/Footer'
 
-import FreyalaAbi from "@/plugins/artifact.json";
+import GFXAbi from "@/plugins/artifact.json";
 
 export default {
   name: 'Homepage',
@@ -38,7 +38,8 @@ export default {
         '0x000000000000000000000000000000000000dead',
         '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18',
         '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4',
-        '0xbb4972a578266e0800d98f4248d057d6f6cde2bf'
+        '0xbb4972a578266e0800d98f4248d057d6f6cde2bf',
+        '0x0fac0cE62af67E6DB9cEb623aBB1De9943EDF79a'
       ],
       burnt: [
         '0x000000000000000000000000000000000000dead',
@@ -50,15 +51,15 @@ export default {
     this.getPrice()
 
     const web3 = new Web3(new Web3.providers.HttpProvider("https://api.s0.t.hmny.io/"));
-    const freyala = new web3.eth.Contract(FreyalaAbi.abi, "0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4");
+    const gameficrossing = new web3.eth.Contract(GFXAbi.abi, "0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4");
 
     for (let i = 0; i < this.walletsToCheck.length; i++) {
-      const balance = await freyala.methods.balanceOf(this.walletsToCheck[i]).call()
+      const balance = await gameficrossing.methods.balanceOf(this.walletsToCheck[i]).call()
       this.circulatingMarketCap -= parseInt(balance) / 1000000000000000000
     }
 
     for (let i = 0; i < this.burnt.length; i++) {
-      const balance = await freyala.methods.balanceOf(this.burnt[i]).call()
+      const balance = await gameficrossing.methods.balanceOf(this.burnt[i]).call()
       this.totalMarketCap -= parseInt(balance) / 1000000000000000000
       this.graveyard += parseInt(balance) / 1000000000000000000
     }
@@ -71,7 +72,7 @@ export default {
   methods: {
     async getPrice() {
       const response = await axios({
-        url: 'https://info.freyala.com/api/exchange-rates/xya_1usdc',
+        url: 'https://info.gameficrossing.com/api/exchange-rates/xya_1usdc',
         method: 'get',
       })
 

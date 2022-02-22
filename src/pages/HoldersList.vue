@@ -45,14 +45,14 @@
             </div>
             <div class="transfer flex text-2xl mb-2">
               <div class="w-2/3">
-                Freyala graveyard
+                GameFi Crossing graveyard
               </div>
               <div class="w-1/6">{{ parseFloat(graveyard).toFixed(5) }}</div>
               <div class="w-1/6 text-right">-</div>
             </div>
             <div class="transfer flex text-2xl mb-2">
               <div class="w-2/3">
-                Freyala staking reward pool
+                GameFi Crossing staking reward pool
               </div>
               <div class="w-1/6">{{ parseFloat(rewardPool).toFixed(5) }}</div>
               <div class="w-1/6 text-right">-</div>
@@ -73,7 +73,7 @@
               <div v-else-if="holder.id === '0x861ef0cab3ab4a1372e7eda936668c8967f70110'"
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala single staking pool
+                  GameFi Crossing single staking pool
                 </a>
               </div>
               <div v-else-if="holder.id === '0xd211b33df63466d4cf4d8bad66f06d4ef7f0b581'"
@@ -91,13 +91,13 @@
               <div v-else-if="holder.id === '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe'"
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala faucet backup
+                  GameFi Crossing faucet backup
                 </a>
               </div>
               <div v-else-if="holder.id === '0x194e7650fe17c2c478cd6d147620790c9e811c3f'"
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala mines (JENNY)
+                  GameFi Crossing mines (JENNY)
                 </a>
               </div>
               <div v-else-if="holder.id === '0x28d9475f6354091a49e20a897f6405a02ffd6836'"
@@ -139,25 +139,25 @@
               <!--              <div v-else-if="holder.id === '0x9b68bf4bf89c115c721105eaf6bd5164afcc51e4'"-->
               <!--                   class="w-2/3">-->
               <!--                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">-->
-              <!--                  Freyala graveyard-->
+              <!--                  GameFi Crossing graveyard-->
               <!--                </a>-->
               <!--              </div>-->
               <!--              <div v-else-if="holder.id === '0x000000000000000000000000000000000000dead'"-->
               <!--                   class="w-2/3">-->
               <!--                <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">-->
-              <!--                  Freyala graveyard-->
+              <!--                  GameFi Crossing graveyard-->
               <!--                </a>-->
               <!--              </div>-->
               <div v-else-if="holder.id === '0xbb4972a578266e0800d98f4248d057d6f6cde2bf'"
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala supply
+                  GameFi Crossing supply
                 </a>
               </div>
               <div v-else-if="holder.id === '0x9aa78983e7e4ae0873235c44cae53bb63f594ca6'"
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala development fund
+                  GameFi Crossing development fund
                 </a>
               </div>
               <div v-else-if="holder.id === '0xdc607e3cfb286eb8176fbc2e3f86f0c5ce6f8523'"
@@ -169,7 +169,7 @@
               <div v-else-if="holder.id === '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18'"
                    class="w-2/3">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala Kraken's den (Time locked tokens (FEB62022))
+                  GameFi Crossing Kraken's den (Time locked tokens (FEB62022))
                 </a>
               </div>
               <div v-else class="w-2/3">
@@ -207,7 +207,7 @@
               <div class="flex text-primary-alt font-semibold">
                 <div class="w-full">Address</div>
               </div>
-              <div class="w-full">Freyala graveyard</div>
+              <div class="w-full">GameFi Crossing graveyard</div>
 
               <div class="flex pt-4 text-primary-alt font-semibold">
                 <div class="w-full">Amount</div>
@@ -223,7 +223,7 @@
               <div class="flex text-primary-alt font-semibold">
                 <div class="w-full">Address</div>
               </div>
-              <div class="w-full">Freyala staking reward pool</div>
+              <div class="w-full">GameFi Crossing staking reward pool</div>
 
               <div class="flex pt-4 text-primary-alt font-semibold">
                 <div class="w-full">Amount</div>
@@ -255,7 +255,7 @@
               <div v-else-if="holder.id === '0x861ef0cab3ab4a1372e7eda936668c8967f70110'"
                    class="w-full">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala single staking pool
+                  GameFi Crossing single staking pool
                 </a>
               </div>
               <div v-else-if="holder.id === '0xd211b33df63466d4cf4d8bad66f06d4ef7f0b581'"
@@ -273,7 +273,7 @@
               <div v-else-if="holder.id === '0xfef8bd2e06d8117e51ce7b960992e4055997d9fe'"
                    class="w-full">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala faucet backup
+                  GameFi Crossing faucet backup
                 </a>
               </div>
               <div v-else-if="holder.id === '0xfacdddf6f59abee55f19f47698356d9de036e871'"
@@ -291,7 +291,7 @@
               <div v-else-if="holder.id === '0xbb4972a578266e0800d98f4248d057d6f6cde2bf'"
                    class="w-full">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala supply
+                  GameFi Crossing supply
                 </a>
               </div>
               <div v-else-if="holder.id === '0x28d9475f6354091a49e20a897f6405a02ffd6836'"
@@ -321,19 +321,19 @@
               <div v-else-if="holder.id === '0x9aa78983e7e4ae0873235c44cae53bb63f594ca6'"
                    class="w-full">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala development fund
+                  GameFi Crossing development fund
                 </a>
               </div>
               <div v-else-if="holder.id === '0x48a30b33ebd0afac1d8023e06e17372c21c0fb18'"
                    class="w-full">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala Kraken's den (Time locked tokens (FEB62022))
+                  GameFi Crossing Kraken's den (Time locked tokens (FEB62022))
                 </a>
               </div>
               <div v-else-if="holder.id === '0x194e7650fe17c2c478cd6d147620790c9e811c3f'"
                    class="w-full">
                 <a :href="`https://explorer.harmony.one/#/address/${holder.id}`" target="_blank">
-                  Freyala mines (JENNY)
+                  GameFi Crossing mines (JENNY)
                 </a>
               </div>
               <div v-else-if="holder.id === '0xdc607e3cfb286eb8176fbc2e3f86f0c5ce6f8523'"
@@ -398,7 +398,7 @@ import axios from 'axios';
 const {Unit} = require("@harmony-js/utils");
 import LookingForTheseComponent from '@/components/LookingForThese'
 
-import FreyalaStakeAbi from "@/plugins/stakingArtifact.json";
+import GFXStakeAbi from "@/plugins/stakingArtifact.json";
 
 export default {
   components: {
@@ -431,7 +431,7 @@ export default {
     accounts: [],
     MMError: '',
     loading: false,
-    freyalaStake: {}
+    gameficrossingStake: {}
   }),
 
   async mounted() {
@@ -440,13 +440,13 @@ export default {
     const Web3 = require('web3');
     const web3 = new Web3(new Web3.providers.HttpProvider("https://api.s0.t.hmny.io/"));
 
-    const freyalaStake = new web3.eth.Contract(FreyalaStakeAbi.abi, "0x861ef0cab3ab4a1372e7eda936668c8967f70110");
-    this.totalStaked = parseInt(await freyalaStake.methods.totalStaked().call()) / 1000000000000000000
+    const gameficrossingStake = new web3.eth.Contract(GFXStakeAbi.abi, "0x861ef0cab3ab4a1372e7eda936668c8967f70110");
+    this.totalStaked = parseInt(await gameficrossingStake.methods.totalStaked().call()) / 1000000000000000000
   },
 
   methods: {
     loadHolders(symbol, skip, first) {
-      axios.post('https://faucet-api.freyala.com/holders', {symbol, skip, first}).then((result) => {
+      axios.post('https://faucet-api.gameficrossing.com/holders', {symbol, skip, first}).then((result) => {
         if (result.data.data.tokens.length > 0) {
           result.data.data.tokens[0].holders.map((holder) => {
             if (holder.id.split('-')[0] === '0x861ef0cab3ab4a1372e7eda936668c8967f70110') {
@@ -477,7 +477,7 @@ export default {
     },
 
     loadMoreHolders(symbol, skip, first) {
-      axios.post('https://faucet-api.freyala.com/holders', {symbol, skip, first}).then((result) => {
+      axios.post('https://faucet-api.gameficrossing.com/holders', {symbol, skip, first}).then((result) => {
         if (result.data.data.tokens.length > 0) {
           result.data.data.tokens[0].holders.map((holder) => {
             if (holder.id.split('-')[0] === '0x861ef0cab3ab4a1372e7eda936668c8967f70110') {

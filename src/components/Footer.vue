@@ -2,19 +2,10 @@
   <footer>
     <div class="container mx-auto flex flex-wrap pb-8 pt-48">
       <div class="w-1/2 lg:w-1/4 mx-auto flex">
-        <img src="/images/SVG/logo.svg" alt="Freyala logo" class="mt-auto w-full">
+        <img src="/images/PNG/GFXAvatar.png" alt="GameFi Crossing logo" class="mt-auto m-auto w-1/2">
       </div>
       <div class="w-full lg:w-1/2 flex flex-wrap my-auto ml-auto mt-8 lg:mt-0 text-center lg:text-left">
         <div class="w-full lg:w-1/3 text-xl lg:text-2xl">
-          <p class="font-semibold text-primary-alt mb-6">Charts!</p>
-
-          <ul>
-            <li class="mb-6">
-              <router-link :to="{ name: 'chart' }">
-                Live Chart
-              </router-link>
-            </li>
-          </ul>
         </div>
         <div class="w-full lg:w-1/3 text-xl lg:text-2xl">
           <p class="font-semibold text-primary-alt mb-6">Get XYA</p>
@@ -44,7 +35,7 @@
 
           <ul>
             <li class="mb-6">
-              <a href="https://twitter.com/freyalacrypto" target="_blank">
+              <a href="https://twitter.com/gameficrossing" target="_blank">
                 Twitter
               </a>
             </li>
@@ -54,7 +45,7 @@
               </a>
             </li>
             <li class="mb-6">
-              <a href="https://t.me/freyalacrypto" target="_blank">
+              <a href="https://t.me/gameficrossing" target="_blank">
                 Telegram
               </a>
             </li>
@@ -72,7 +63,7 @@
       <div class="container mx-auto flex">
         <div class="w-full lg:w-1/3 my-auto text-center lg:text-left">
           <p>
-            ©2021 Freyala. All rights reserved.
+            ©2021 GameFi Crossing. All rights reserved.
           </p>
         </div>
         <div class="hidden lg:block w-2/3 my-auto text-right">

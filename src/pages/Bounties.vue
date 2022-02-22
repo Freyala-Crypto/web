@@ -13,7 +13,7 @@
       <div class="container mx-auto py-12 lg:py-24 text-center">
         <div class="w-full lg:w-3/4">
           <p class="text-2xl lg:text-5xl font-extralight">
-            Can you help <span class="font-semibold text-primary-alt">Freyala</span> grow?
+            Can you help <span class="font-semibold text-primary-alt">GameFi Crossing</span> grow?
           </p>
         </div>
       </div>

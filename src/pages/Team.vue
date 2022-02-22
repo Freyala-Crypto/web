@@ -20,7 +20,7 @@
           <br>
 
           <p class="text-2xl lg:text-4xl font-extralight">
-            Behind Freyala is a handful of talented and committed individuals who contribute collaboratively and
+            Behind GameFi Crossing is a handful of talented and committed individuals who contribute collaboratively and
             seamlessly to drive the project to success.
           </p>
         </div>
@@ -53,9 +53,9 @@
             </p>
             <br>
             <p class="text-white font-extralight text-2xl">
-              Freya is the founder of Freyala and supervises all projects and initiatives. Freya also serves as the
+              Freya is the founder of GameFi Crossing and supervises all projects and initiatives. Freya also serves as the
               community manager by engaging with everyone on an extremely regular basis, spending the vast majority of
-              her time on Discord, Twitter and Telegram to discuss everything crypto and Freyala-related.
+              her time on Discord, Twitter and Telegram to discuss everything crypto and GameFi Crossing-related.
             </p>
           </div>
         </div>
@@ -106,7 +106,7 @@
             <br>
             <p class="text-white font-extralight text-2xl">
               Gydo is a talented backend developer undertaking development surrounding the tipping bot, live charting
-              and other projects in the Freyala ecosystem.
+              and other projects in the GameFi Crossing ecosystem.
             </p>
           </div>
         </div>
@@ -160,7 +160,7 @@
             <p class="text-white font-extralight text-2xl">
               splat is the main person behind the entire CryptIDs project, designing both the art of but also the core
               gameplay mechanics. splat also helps to create promotional graphics and logo mockups for projects
-              surrounding Freyala.
+              surrounding GameFi Crossing.
             </p>
           </div>
         </div>
@@ -185,7 +185,7 @@
 <!--            </p>-->
 <!--            <br>-->
 <!--            <p class="text-white font-extralight text-2xl">-->
-<!--              Flu is Harmony's cowboy, the absolute treasure. Flu is Freyala's proud ambassador, taking care of external relations.-->
+<!--              Flu is Harmony's cowboy, the absolute treasure. Flu is GameFi Crossing's proud ambassador, taking care of external relations.-->
 <!--            </p>-->
 <!--          </div>-->
         </div>
@@ -199,7 +199,7 @@
           </p>
           <br>
           <p class="text-2xl text-white font-extralight lg:pr-32">
-            You can find the team active on Discord. Feel free to pop in to chat or ask any questions about Freyala.
+            You can find the team active on Discord. Feel free to pop in to chat or ask any questions about GameFi Crossing.
           </p>
         </div>
 

@@ -22,8 +22,8 @@ export default {
     return {
       chart                 : null,
       resolution            : '30',
-      candlestickApiBasePath: 'https://info.freyala.com/api/candlesticks/xya_1usdc/',
-      // volumeApiBasePath     : 'https://info.freyala.com/',
+      candlestickApiBasePath: 'https://info.gameficrossing.com/api/candlesticks/xya_1usdc/',
+      // volumeApiBasePath     : 'https://info.gameficrossing.com/',
       watermarkColor   : '#E6E6E6',
       watermarkText    : '',
       title            : 'XYA',

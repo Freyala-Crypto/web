@@ -13,7 +13,7 @@
               <br>
 
               <p class="text-xl lg:text-4xl font-thin my-8">
-                <span class="font-semibold">Freyala ($XYA)</span> is an HRC-20 token centered around integrating
+                <span class="font-semibold">GameFi Crossing ($XYA)</span> is an HRC-20 token centered around integrating
                 cryptocurrency in the form of gamified NFTs and decentralized applications.
               </p>
 
@@ -48,7 +48,7 @@
               low-cost and fast transactions on the Harmony blockchain.
               <br>
               <br>
-              To start, we have launched an interactive app to enter the Freyala world.
+              To start, we have launched an interactive app to enter the GameFi Crossing world.
             </p>
           </div>
         </div>
@@ -73,7 +73,7 @@
 
         <div class="container ml-auto flex flex-wrap mt-8 lg:mt-32 px-8 lg:px-24 py-12 bg-white rounded-l-3xl">
           <p class="text-3xl lg:text-5xl font-thin w-full">
-            <span class="font-semibold text-primary-alt">Freyala</span> by the numbers:
+            <span class="font-semibold text-primary-alt">GameFi Crossing</span> by the numbers:
           </p>
 
           <div class="w-full lg:w-1/2 lg:w-1/4 mt-12 text-center">
@@ -133,7 +133,7 @@
             <!--            <div class="flex">-->
             <!--              <img class="my-auto w-20 inline" src="/images/SVG/arrow-right.svg" alt="Arrow right">-->
             <!--              <span class="uppercase ml-4 text-2xl font-semibold text-primary-alt">-->
-            <!--                More on Freyala tokenomics-->
+            <!--                More on GameFi Crossing tokenomics-->
             <!--              </span>-->
             <!--            </div>-->
           </div>
@@ -196,14 +196,14 @@
       <div class="container mx-auto py-12 lg:py-24">
         <div class="w-full xl:w-3/4">
           <p class="text-2xl lg:text-5xl font-extralight">
-            What is Freyala <span class="font-semibold text-primary-alt">(XYA)</span> ?
+            What is GameFi Crossing <span class="font-semibold text-primary-alt">(XYA)</span> ?
           </p>
 
           <br>
           <br>
 
           <p class="text-xl lg:text-4xl font-extralight">
-            Freyala ($XYA) is an HRC-20 token built on the Harmony blockchain.
+            GameFi Crossing ($XYA) is an HRC-20 token built on the Harmony blockchain.
             <br>
             <br>
             The idea behind this project is to create a beginner-friendly means of using crypto with the power of
@@ -223,7 +223,7 @@
     <section id="section-i-3" class="bg-black pb-12 lg:pb-24">
       <div class="container mx-auto flex flex-wrap py-12 lg:py-24">
         <p class="text-white w-full font-extralight text-3xl lg:text-5xl">
-          Freyala <span class="font-semibold text-primary-alt">Tokenomics</span>
+          GameFi Crossing <span class="font-semibold text-primary-alt">Tokenomics</span>
         </p>
 
         <div class="w-full lg:w-3/4 mt-12 lg:pr-20">
@@ -337,7 +337,7 @@
             <div class="w-full lg:w-1/4 flex flex-wrap mt-8 lg:mt-16 mb-8">
               <img class="h-12 lg:h-24 mx-auto mb-8" src="/images/SVG/twitter.svg" alt="Discord">
               <div class="w-full">
-                <a href="https://twitter.com/freyalacrypto" target="_blank">
+                <a href="https://twitter.com/gameficrossing" target="_blank">
                   <img class="my-auto w-20 inline" src="/images/SVG/arrow-right-white.svg" alt="Arrow right">
                   <span class="uppercase ml-4 text-2xl font-semibold text-white">
                     Twitter
@@ -348,7 +348,7 @@
             <div class="w-full lg:w-1/4 flex flex-wrap mt-8 lg:mt-16 mb-8">
               <img class="h-12 lg:h-24 mx-auto mb-8" src="/images/SVG/telegram.svg" alt="Discord">
               <div class="w-full">
-                <a href="https://t.me/freyalacrypto" target="_blank">
+                <a href="https://t.me/gameficrossing" target="_blank">
                   <img class="my-auto w-20 inline" src="/images/SVG/arrow-right-white.svg" alt="Arrow right">
                   <span class="uppercase ml-4 text-2xl font-semibold text-white">
                     Telegram
@@ -383,179 +383,16 @@
           <br>
 
           <p class="text-2xl lg:text-4xl font-extralight">
-            Behind Freyala is a handful of talented and committed individuals who contribute collaboratively and
+            Behind GameFi Crossing is a handful of talented and committed individuals who contribute collaboratively and
             seamlessly to drive the project to success.
           </p>
         </div>
         <div class="w-1/4"></div>
       </div>
 
-      <div class="w-full h-2 bg-gradient-to-r from-primary to-secondary"></div>
     </section>
 
-    <section id="section-t-3" class="bg-black pb-24 mb-24">
-      <div class="container mx-auto flex flex-wrap py-24">
-        <div class="w-full xl:w-3/4 mx-auto flex flex-wrap lg:mt-24 lg:pr-20">
-          <div class="w-full lg:w-1/3 relative mb-8 lg:mb-0 h-64">
-            <img class="absolute h-64" src="/images/SVG/bg-borders-team.svg" alt="Background border">
-            <div class="absolute w-64 h-64 flex text-center h-full">
-              <div class="m-auto">
-                <p class="text-white text-9xl font-semibold">
-                  Fr
-                </p>
-                <br>
-                <p class="text-white text-3xl font-semibold">
-                  Freya
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full lg:w-2/3">
-            <p class="text-primary-alt font-semibold text-3xl">
-              FOUNDER & COMMUNITY MANAGER
-            </p>
-            <br>
-            <p class="text-white font-extralight text-2xl">
-              Freya is the founder of Freyala and supervises all projects and initiatives. Freya also serves as the
-              community manager by engaging with everyone on an extremely regular basis, spending the vast majority of
-              her time on Discord, Twitter and Telegram to discuss everything crypto and Freyala-related.
-            </p>
-          </div>
-        </div>
-        <div class="w-full xl:w-3/4 mx-auto flex flex-wrap mt-24 lg:pr-20">
-          <div class="w-full lg:w-1/3 relative mb-8 lg:mb-0 h-64">
-            <img class="absolute h-64" src="/images/SVG/bg-borders-team.svg" alt="Background border">
-            <div class="absolute w-64 flex text-center h-full">
-              <div class="m-auto">
-                <p class="text-white text-9xl font-semibold">
-                  Ta
-                </p>
-                <br>
-                <p class="text-white text-3xl font-semibold">
-                  Tailchakra
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full lg:w-2/3">
-            <p class="text-primary-alt font-semibold text-3xl">
-              GAME DEVELOPER
-            </p>
-            <br>
-            <p class="text-white font-extralight text-2xl">
-              Tailchakra has been a part of the project from the start. Undertaking the CryptIDs game and overviewing
-              world updates.
-            </p>
-          </div>
-        </div>
-        <div class="w-full xl:w-3/4 mx-auto flex flex-wrap mt-24 lg:pr-20">
-          <div class="w-full lg:w-1/3 relative mb-8 lg:mb-0 h-64">
-            <img class="absolute h-64" src="/images/SVG/bg-borders-team.svg" alt="Background border">
-            <div class="absolute w-64 flex text-center h-full">
-              <div class="m-auto">
-                <p class="text-white text-9xl font-semibold">
-                  Gy
-                </p>
-                <br>
-                <p class="text-white text-3xl font-semibold">
-                  Gydo
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full lg:w-2/3">
-            <p class="text-primary-alt font-semibold text-3xl">
-              BOT DEVELOPER
-            </p>
-            <br>
-            <p class="text-white font-extralight text-2xl">
-              Gydo is a talented backend developer undertaking development surrounding the tipping bot, live charting
-              and other projects in the Freyala ecosystem.
-            </p>
-          </div>
-        </div>
-        <div class="w-full xl:w-3/4 mx-auto flex flex-wrap mt-24 lg:pr-20">
-          <div class="w-full lg:w-1/3 relative mb-8 lg:mb-0 h-64">
-            <img class="absolute h-64" src="/images/SVG/bg-borders-team.svg" alt="Background border">
-            <div class="absolute w-64 flex text-center h-full">
-              <div class="m-auto">
-                <p class="text-white text-9xl font-semibold">
-                  Sl
-                </p>
-                <br>
-                <p class="text-white text-3xl font-semibold">
-                  Sloppypencil
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full lg:w-2/3">
-            <p class="text-primary-alt font-semibold text-3xl">
-              ARTIST
-            </p>
-            <br>
-            <p class="text-white font-extralight text-2xl">
-              Sloppypencil is the lead animator of the popular animated American science fiction sitcom, Rick and Morty.
-              Sloppypencil is part of the CryptIDs project and is working on Harmon designs, the most notable being
-              several legendary variations.
-            </p>
-          </div>
-        </div>
-        <div class="w-full xl:w-3/4 mx-auto flex flex-wrap mt-24 lg:pr-20">
-          <div class="w-full lg:w-1/3 relative mb-8 lg:mb-0 h-64">
-            <img class="absolute h-64" src="/images/SVG/bg-borders-team.svg" alt="Background border">
-            <div class="absolute w-64 flex text-center h-full">
-              <div class="m-auto">
-                <p class="text-white text-9xl font-semibold">
-                  Sp
-                </p>
-                <br>
-                <p class="text-white text-3xl font-semibold">
-                  splat
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full lg:w-2/3">
-            <p class="text-primary-alt font-semibold text-3xl">
-              ARTIST & DESIGNER
-            </p>
-            <br>
-            <p class="text-white font-extralight text-2xl">
-              splat is the main person behind the entire CryptIDs project, designing both the art of but also the core
-              gameplay mechanics. splat also helps to create promotional graphics and logo mockups for projects
-              surrounding Freyala.
-            </p>
-          </div>
-        </div>
-        <!--        <div class="w-full xl:w-3/4 mx-auto flex flex-wrap mt-24 lg:pr-20">-->
-        <!--          <div class="w-full lg:w-1/3 relative mb-8 lg:mb-0 h-64">-->
-        <!--            <img class="absolute h-64" src="/images/SVG/bg-borders-team.svg" alt="Background border">-->
-        <!--            <div class="absolute w-64 flex text-center h-full">-->
-        <!--              <div class="m-auto">-->
-        <!--                <p class="text-white text-9xl font-semibold">-->
-        <!--                  Fl-->
-        <!--                </p>-->
-        <!--                <br>-->
-        <!--                <p class="text-white text-3xl font-semibold">-->
-        <!--                  Flu-->
-        <!--                </p>-->
-        <!--              </div>-->
-        <!--            </div>-->
-        <!--          </div>-->
-        <!--          <div class="w-full lg:w-2/3">-->
-        <!--            <p class="text-primary-alt font-semibold text-3xl">-->
-        <!--              AMBASSADOR-->
-        <!--            </p>-->
-        <!--            <br>-->
-        <!--            <p class="text-white font-extralight text-2xl">-->
-        <!--              Flu is Harmony's cowboy, the absolute treasure. Flu is Freyala's proud ambassador, taking care of external relations.-->
-        <!--            </p>-->
-        <!--          </div>-->
-        <!--        </div>-->
-
-      </div>
-
+    <section id="section-t-3" class="bg-black py-24 my-24">
       <div
           class="container mx-auto flex flex-wrap p-8 lg:p-12 rounded-3xl bg-gradient-to-r from-primary to-secondary my-12">
         <div class="w-full lg:w-4/5 mx-auto text-center">
@@ -564,7 +401,7 @@
           </p>
           <br>
           <p class="text-2xl text-white font-extralight lg:pr-32">
-            You can find the team active on Discord. Feel free to pop in to chat or ask any questions about Freyala.
+            You can find the team active on Discord. Feel free to pop in to chat or ask any questions about GameFi Crossing.
           </p>
         </div>
 
@@ -669,14 +506,14 @@
       <div class="container mx-auto py-12 lg:py-24">
         <div class="w-full xl:w-3/4">
           <p class="text-2xl lg:text-5xl font-extralight">
-            What’s planned for Freyala in <span class="font-semibold text-primary-alt">2022</span> ?
+            What’s planned for GameFi Crossing in <span class="font-semibold text-primary-alt">2022</span> ?
           </p>
 
           <br>
           <br>
 
           <p class="text-2xl lg:text-4xl font-extralight">
-            Below is the current roadmap for Freyala planned for the first half of 2022. This list is subject to change and may be
+            Below is the current roadmap for GameFi Crossing planned for the first half of 2022. This list is subject to change and may be
             updated with updates and/or future milestones.
           </p>
 
@@ -690,6 +527,10 @@
             <div class="container cnt-finished right">
               <div class="content">
                 <h2 class="text-2xl lg:text-4xl">CryptoPigs Tamagotchi</h2>
+                <br>
+                <p>
+                  CryptoPigs are NFTs on the Harmony blockchain integrated into the GameFi Crossing ecosystem, featuring a tamagotchi minigame with token rewards. There are 5000 piggies in total, each with four to seven randomly generated attributes. The tamagotchi game requires users to take care of their piggies to earn COINKx.
+                </p>
               </div>
             </div>
           </div>
@@ -718,19 +559,19 @@
         <div class="timeline">
           <div class="container left">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">Sir reginald's revamp!</h2>
+              <h2 class="text-2xl md:text-4xl">Discord Bot Revamp</h2>
               <br>
               <p>
-                Refurbished commands, better catches, more functions!
+                Being able to interact with the blockchain on Discord has become so much more powerful and easy. Sir Reginald is now equipped with new features for convenience, community interaction and more. Old redundant commands are removed as well.
               </p>
             </div>
           </div>
           <div class="container right">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">Dingos</h2>
+              <h2 class="text-2xl md:text-4xl">Community NFT Listings</h2>
               <br>
               <p>
-                Enable Dingos in the Freyala marketplace. The first step towards community projects!
+                Dingos are added to the GameFi Crossing NFT Marketplace as the first community project collection that users will be able to buy, sell and bid for using our platform. Other community projects partnered with GameFi Crossing will slowly be added.
               </p>
             </div>
           </div>
@@ -739,80 +580,88 @@
               <h2 class="text-2xl md:text-4xl">Plots marketplace</h2>
               <br>
               <p>
-                Enable plots in the Freyala marketplace, better filters and more buy options!
-
+                Buy, sell and bid for plots in the NFT Marketplace with supported tokens in the GameFi Crossing ecosystem. Be able to view the unique attribute values and neighborhood of each plot being sold before purchasing.
               </p>
             </div>
           </div>
           <div class="container right">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">Stake NFTs</h2>
+              <h2 class="text-2xl md:text-4xl">Cross-Project Plots</h2>
               <br>
               <p>
-                Stake your NFTs in the plots, enhance emitting XYA! Maybe even with some outerworld NFTs.
+                Integration from other projects in Harmony that partner up with GameFi Crossing are added to plots of land, which are accessible in the GameFi Crossing World App. These offer special and exclusive buffs, use cases and more. Stake NFTs in plots of land to boost the emission of XYA. Certain NFTs from other projects will also have this staking feature, offering their own benefits when staked to a plot.
               </p>
             </div>
           </div>
           <div class="container left">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">Tamagotchi decorations</h2>
+              <h2 class="text-2xl md:text-4xl">Tamagotchi Decorations</h2>
               <br>
               <p>
-                Pretty up your porker!
+                Decorations are available to purchase in bulk using ONE/COINKx. There are predefined slots for decorations, with specific tags and types that can be assigned to a slot. Decorations also offer bonuses such as improving the COINKx multiplier for a CryptoPig.
               </p>
             </div>
           </div>
           <div class="container right">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">CryptoPigs minigames</h2>
+              <h2 class="text-2xl md:text-4xl">CryptoPigs Minigames</h2>
               <br>
               <p>
-                Including leaderboard! Find that top hog.
+                A unique assortment of traditional minigames involving CryptoPigs allows players to gain experience points, enabling them to level up and rank on a global leaderboard.
               </p>
             </div>
           </div>
           <div class="container left">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">Improved mobile support</h2>
+              <h2 class="text-2xl md:text-4xl">Mobile UI Revamp</h2>
               <br>
               <p>
-                More data, better data!
+                The GameFi Crossing website will be re-designed especially to fit the specifications of mobile devices, as well as make it easier to navigate. Full mobile support and integration are also included in this revamp.
               </p>
             </div>
           </div>
           <div class="container right">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">Frey boss battles</h2>
+              <h2 class="text-2xl md:text-4xl">Desktop UI Revamp</h2>
               <br>
               <p>
-                Randomized appearances and rarities like the Frey NFTs, with varying rewards and difficulty. Card-based combat in a turn-based fashion.
+                An entire website revamp to match the overall aesthetic of GameFi Crossing, serving as a proper introduction to our project, story and more. It will feature an automated MetaMask setup, in-world chart, beginners tutorial and a proper documentational wiki of all the ins and outs of GameFi Crossing.
               </p>
             </div>
           </div>
           <div class="container left">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">CryptIDs BETA</h2>
+              <h2 class="text-2xl md:text-4xl">The Frey Boss Battles</h2>
               <br>
               <p>
-                Ready your testnet Harmons, bugbounties galore!
+                Bosses are randomly generated NFTs (similar to the Frey) with varying rewards and difficulty. Boss battles feature card-based combat with traditional turn-based RPG mechanics. Each Frey attribute and type will have unique attack, defense and ability cards
               </p>
             </div>
           </div>
           <div class="container right">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">CryptoPigs PvP</h2>
+              <h2 class="text-2xl md:text-4xl">CryptIDs Beta</h2>
               <br>
               <p>
-                Player versus pi.. Pig versus pla? Pig versus pig! Main PvP with rock-paper-scissor mechanics with 5 elements, allowing players to bet with rewards.
+                Users will be able to stake XYA-ONE LP tokens to generate tokens for CryptIDs, introducing a stake-to-play system. The beta release will be a version of CryptIDs with initial monsters to test features and quality of life (QOL) changes. Multiple game modes may be added, as well as special events for exclusive prizes and Harmons.
               </p>
             </div>
           </div>
           <div class="container left">
             <div class="content">
-              <h2 class="text-2xl md:text-4xl">CryptoPigs breeding</h2>
+              <h2 class="text-2xl md:text-4xl">CryptoPigs PVP</h2>
               <br>
               <p>
-                Pig offspring! Wait, these don't look like pigs..
+                Pig versus pig. The main CryptoPigs PvP game has rock-paper-scissors mechanics with 5 elements, allowing players to bet with and earn rewards by winning matches.
+              </p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2 class="text-2xl md:text-4xl">CryptoPigs Breeding</h2>
+              <br>
+              <p>
+                Breeding is a mechanic for CryptoPigs where NFTs can breed to create Gen 1 offspring with unique appearances and traits, as well as possible mutations.
               </p>
             </div>
           </div>
@@ -848,7 +697,7 @@
             <div class="w-full lg:w-1/4 flex flex-wrap mt-8 lg:mt-16 mb-8">
               <img class="h-12 lg:h-24 mx-auto mb-8" src="/images/SVG/twitter.svg" alt="Discord">
               <div class="w-full">
-                <a href="https://twitter.com/freyalacrypto" target="_blank">
+                <a href="https://twitter.com/gameficrossing" target="_blank">
                   <img class="my-auto w-20 inline" src="/images/SVG/arrow-right-white.svg" alt="Arrow right">
                   <span class="uppercase ml-4 text-2xl font-semibold text-white">
                     Twitter
@@ -859,7 +708,7 @@
             <div class="w-full lg:w-1/4 flex flex-wrap mt-8 lg:mt-16 mb-8">
               <img class="h-12 lg:h-24 mx-auto mb-8" src="/images/SVG/telegram.svg" alt="Discord">
               <div class="w-full">
-                <a href="https://t.me/freyalacrypto" target="_blank">
+                <a href="https://t.me/gameficrossing" target="_blank">
                   <img class="my-auto w-20 inline" src="/images/SVG/arrow-right-white.svg" alt="Arrow right">
                   <span class="uppercase ml-4 text-2xl font-semibold text-white">
                     Telegram

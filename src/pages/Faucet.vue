@@ -46,7 +46,7 @@
 
 <script>
 import LookingForTheseComponent from '@/components/LookingForThese'
-import FreyalaFaucetAbi from "../plugins/faucetArtifact.json";
+import GFXFaucetAbi from "../plugins/faucetArtifact.json";
 import { initWeb3 } from "@/plugins/initWeb3";
 
 export default {
@@ -93,12 +93,12 @@ export default {
       }
 
       this.gasPrice = await web3.eth.getGasPrice();
-      this.freyalaFaucet = new web3.eth.Contract(FreyalaFaucetAbi.abi, FreyalaFaucetAbi.address);
+      this.gameficrossingFaucet = new web3.eth.Contract(GFXFaucetAbi.abi, GFXFaucetAbi.address);
 
-      const allowedToWithdraw = await this.freyalaFaucet.methods.allowedToWithdraw(this.accounts[0]).call()
+      const allowedToWithdraw = await this.gameficrossingFaucet.methods.allowedToWithdraw(this.accounts[0]).call()
 
       if (allowedToWithdraw) {
-        await this.freyalaFaucet.methods.requestTokens().send({
+        await this.gameficrossingFaucet.methods.requestTokens().send({
           from: this.accounts[0],
           gasPrice: this.gasPrice,
           gasLimit: this.gasLimit,

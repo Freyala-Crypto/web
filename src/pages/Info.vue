@@ -13,14 +13,14 @@
       <div class="container mx-auto py-12 lg:py-24">
         <div class="w-full xl:w-3/4">
           <p class="text-2xl lg:text-5xl font-extralight">
-            What is Freyala <span class="font-semibold text-primary-alt">(XYA)</span> ?
+            What is GameFi Crossing <span class="font-semibold text-primary-alt">(XYA)</span> ?
           </p>
 
           <br>
           <br>
 
           <p class="text-xl lg:text-4xl font-extralight">
-            Freyala ($XYA) is an HRC-20 token built on the Harmony blockchain.
+            GameFi Crossing ($XYA) is an HRC-20 token built on the Harmony blockchain.
             <br>
             <br>
             The idea behind this project is to create a beginner-friendly means of using crypto with the power of
@@ -40,7 +40,7 @@
     <section id="section-i-3" class="bg-black pb-12 lg:pb-24">
       <div class="container mx-auto flex flex-wrap py-12 lg:py-24">
         <p class="text-white w-full font-extralight text-3xl lg:text-5xl">
-          Freyala <span class="font-semibold text-primary-alt">Tokenomics</span>
+          GameFi Crossing <span class="font-semibold text-primary-alt">Tokenomics</span>
         </p>
 
         <div class="w-full lg:w-3/4 mt-12 lg:pr-20">
@@ -148,7 +148,7 @@
             <div class="w-full lg:w-1/4 flex flex-wrap mt-8 lg:mt-16 mb-8">
               <img class="h-12 lg:h-24 mx-auto mb-8" src="/images/SVG/twitter.svg" alt="Discord">
               <div class="w-full">
-                <a href="https://twitter.com/freyalacrypto" target="_blank">
+                <a href="https://twitter.com/gameficrossing" target="_blank">
                   <img class="my-auto w-20 inline" src="/images/SVG/arrow-right-white.svg" alt="Arrow right">
                   <span class="uppercase ml-4 text-2xl font-semibold text-white">
                     Twitter
@@ -159,7 +159,7 @@
             <div class="w-full lg:w-1/4 flex flex-wrap mt-8 lg:mt-16 mb-8">
               <img class="h-12 lg:h-24 mx-auto mb-8" src="/images/SVG/telegram.svg" alt="Discord">
               <div class="w-full">
-                <a href="https://t.me/freyalacrypto" target="_blank">
+                <a href="https://t.me/gameficrossing" target="_blank">
                   <img class="my-auto w-20 inline" src="/images/SVG/arrow-right-white.svg" alt="Arrow right">
                   <span class="uppercase ml-4 text-2xl font-semibold text-white">
                     Telegram

@@ -196,8 +196,8 @@
 
 <script>
 import fromExponential from "from-exponential";
-import FreyalaTokenAbi from "../plugins/artifact.json";
-import FreyalaStakeAbi from "../plugins/stakingArtifact.json";
+import GFXTokenAbi from "../plugins/artifact.json";
+import GFXStakeAbi from "../plugins/stakingArtifact.json";
 import { initWeb3 } from "@/plugins/initWeb3";
 import LookingForTheseComponent from '@/components/LookingForThese'
 
@@ -220,8 +220,8 @@ export default {
     stakingRewards: undefined,
     totalRewards: undefined,
     registrationStatus: undefined,
-    freyalaToken: undefined,
-    freyalaStake: undefined,
+    gameficrossingToken: undefined,
+    gameficrossingStake: undefined,
     dailyROI: undefined,
     registrationTax: undefined,
     unStakingTax: undefined,
@@ -291,20 +291,20 @@ export default {
 
       this.gasPrice = await web3.eth.getGasPrice();
 
-      this.freyalaToken = new web3.eth.Contract(FreyalaTokenAbi.abi, "0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4");
-      this.stakingAccountBalance = await this.freyalaToken.methods.balanceOf(this.accounts[0]).call();
-      this.totalSupply = await this.freyalaToken.methods.totalSupply().call();
+      this.gameficrossingToken = new web3.eth.Contract(GFXTokenAbi.abi, "0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4");
+      this.stakingAccountBalance = await this.gameficrossingToken.methods.balanceOf(this.accounts[0]).call();
+      this.totalSupply = await this.gameficrossingToken.methods.totalSupply().call();
 
-      this.freyalaStake = new web3.eth.Contract(FreyalaStakeAbi.abi, "0x861ef0CaB3ab4a1372E7eDa936668C8967F70110");
-      this.referralRewards = await this.freyalaStake.methods.referralRewards(this.accounts[0]).call();
-      this.referralCount = await this.freyalaStake.methods.referralCount(this.accounts[0]).call();
-      this.status = await this.freyalaStake.methods.registered(this.accounts[0]).call();
-      this.totalStaked = await this.freyalaStake.methods.totalStaked().call();
-      this.minStake = await this.freyalaStake.methods.minimumStakeValue().call();
-      this.stakingTax = await this.freyalaStake.methods.stakingTaxRate().call();
-      this.unStakingTax = await this.freyalaStake.methods.unstakingTaxRate().call();
-      this.registrationTax = await this.freyalaStake.methods.registrationTax().call();
-      this.dailyROI = await this.freyalaStake.methods.dailyROI().call();
+      this.gameficrossingStake = new web3.eth.Contract(GFXStakeAbi.abi, "0x861ef0CaB3ab4a1372E7eDa936668C8967F70110");
+      this.referralRewards = await this.gameficrossingStake.methods.referralRewards(this.accounts[0]).call();
+      this.referralCount = await this.gameficrossingStake.methods.referralCount(this.accounts[0]).call();
+      this.status = await this.gameficrossingStake.methods.registered(this.accounts[0]).call();
+      this.totalStaked = await this.gameficrossingStake.methods.totalStaked().call();
+      this.minStake = await this.gameficrossingStake.methods.minimumStakeValue().call();
+      this.stakingTax = await this.gameficrossingStake.methods.stakingTaxRate().call();
+      this.unStakingTax = await this.gameficrossingStake.methods.unstakingTaxRate().call();
+      this.registrationTax = await this.gameficrossingStake.methods.registrationTax().call();
+      this.dailyROI = await this.gameficrossingStake.methods.dailyROI().call();
 
       this.loggedIn = true
       await this.updateAll()
@@ -312,37 +312,37 @@ export default {
     },
 
     async updateStakes() {
-      const stake = await this.freyalaStake.methods.stakes(this.accounts[0]).call();
+      const stake = await this.gameficrossingStake.methods.stakes(this.accounts[0]).call();
       this.stakes = stake;
       return stake;
     },
 
     async updateAccountBalance() {
-      if (this.freyalaToken) {
-        const balance = await this.freyalaToken.methods.balanceOf(this.accounts[0]).call();
+      if (this.gameficrossingToken) {
+        const balance = await this.gameficrossingToken.methods.balanceOf(this.accounts[0]).call();
         this.stakingAccountBalance = balance;
         return balance;
       }
     },
 
     async updateTotalSupply() {
-      if (this.freyalaToken) {
-        const totalSupply = await this.freyalaToken.methods.totalSupply().call();
+      if (this.gameficrossingToken) {
+        const totalSupply = await this.gameficrossingToken.methods.totalSupply().call();
         this.totalSupply = totalSupply;
         return totalSupply;
       }
     },
 
     async updateTotalStaked() {
-      if (this.freyalaStake) {
-        return await this.freyalaStake.methods.totalStaked().call();
+      if (this.gameficrossingStake) {
+        return await this.gameficrossingStake.methods.totalStaked().call();
       }
     },
 
     async minRegisteration() {
-      if (this.freyalaStake) {
-        const tax = parseInt(await this.freyalaStake.methods.registrationTax().call());
-        const value = parseInt(await this.freyalaStake.methods.minimumStakeValue().call());
+      if (this.gameficrossingStake) {
+        const tax = parseInt(await this.gameficrossingStake.methods.registrationTax().call());
+        const value = parseInt(await this.gameficrossingStake.methods.minimumStakeValue().call());
         const sum = parseInt(tax / 1000000000000000000) + parseInt(value / 1000000000000000000);
         this.minimumRegistrationCost = sum;
         return sum;
@@ -350,9 +350,9 @@ export default {
     },
 
     async stakeRewards() {
-      if (this.freyalaStake) {
-        const rewards = parseInt(await this.freyalaStake.methods.stakeRewards(this.accounts[0]).call());
-        const owing = parseInt(await this.freyalaStake.methods.calculateEarnings(this.accounts[0]).call());
+      if (this.gameficrossingStake) {
+        const rewards = parseInt(await this.gameficrossingStake.methods.stakeRewards(this.accounts[0]).call());
+        const owing = parseInt(await this.gameficrossingStake.methods.calculateEarnings(this.accounts[0]).call());
         const sum = rewards + owing;
         this.stakingRewards = sum;
         return sum;
@@ -360,17 +360,17 @@ export default {
     },
 
     async totalReward() {
-      const owing = parseInt(await this.freyalaStake.methods.calculateEarnings(this.accounts[0]).call());
-      const recorded = parseInt(await this.freyalaStake.methods.stakeRewards(this.accounts[0]).call());
-      const referral = parseInt(await this.freyalaStake.methods.referralRewards(this.accounts[0]).call());
+      const owing = parseInt(await this.gameficrossingStake.methods.calculateEarnings(this.accounts[0]).call());
+      const recorded = parseInt(await this.gameficrossingStake.methods.stakeRewards(this.accounts[0]).call());
+      const referral = parseInt(await this.gameficrossingStake.methods.referralRewards(this.accounts[0]).call());
       const sum = owing + referral + recorded;
       this.totalRewards = sum;
       return sum;
     },
 
     async updateStatus() {
-      if (this.freyalaToken) {
-        this.registrationStatus = await this.freyalaStake.methods.registered(this.accounts[0]).call();
+      if (this.gameficrossingToken) {
+        this.registrationStatus = await this.gameficrossingStake.methods.registered(this.accounts[0]).call();
       }
     },
 
@@ -382,13 +382,13 @@ export default {
       try {
         let ref = "0x0000000000000000000000000000000000000000";
 
-        await this.freyalaToken.methods.approve("0x861ef0CaB3ab4a1372E7eDa936668C8967F70110", arg).send({
+        await this.gameficrossingToken.methods.approve("0x861ef0CaB3ab4a1372E7eDa936668C8967F70110", arg).send({
           from: this.accounts[0],
           gasPrice: this.gasPrice,
           gasLimit: this.gasLimit,
           gas: parseFloat((this.gasPrice * this.gasLimit) / Math.pow(10, 9))
         });
-        await this.freyalaStake.methods.registerAndStake(arg, ref).send({
+        await this.gameficrossingStake.methods.registerAndStake(arg, ref).send({
           from: this.accounts[0],
           gasPrice: this.gasPrice,
           gasLimit: this.gasLimit,
@@ -408,19 +408,19 @@ export default {
     async registerAndStakeAll() {
       this.error = ''
       this.stakingLoading = true;
-      const actual = await this.freyalaToken.methods.balanceOf(this.accounts[0]).call();
+      const actual = await this.gameficrossingToken.methods.balanceOf(this.accounts[0]).call();
       const arg = fromExponential(actual);
 
       try {
         let ref = "0x0000000000000000000000000000000000000000";
 
-        await this.freyalaToken.methods.approve("0x861ef0CaB3ab4a1372E7eDa936668C8967F70110", arg).send({
+        await this.gameficrossingToken.methods.approve("0x861ef0CaB3ab4a1372E7eDa936668C8967F70110", arg).send({
           from: this.accounts[0],
           gasPrice: this.gasPrice,
           gasLimit: this.gasLimit,
           gas: parseFloat((this.gasPrice * this.gasLimit) / Math.pow(10, 9))
         });
-        await this.freyalaStake.methods.registerAndStake(arg, ref).send({
+        await this.gameficrossingStake.methods.registerAndStake(arg, ref).send({
           from: this.accounts[0],
           gasPrice: this.gasPrice,
           gasLimit: this.gasLimit,
@@ -440,17 +440,17 @@ export default {
     async stakeAll() {
       this.error = ''
       this.stakingLoading = true;
-      const actual = await this.freyalaToken.methods.balanceOf(this.accounts[0]).call();
+      const actual = await this.gameficrossingToken.methods.balanceOf(this.accounts[0]).call();
       const arg = fromExponential(actual);
 
       try {
-        await this.freyalaToken.methods.approve("0x861ef0CaB3ab4a1372E7eDa936668C8967F70110", arg).send({
+        await this.gameficrossingToken.methods.approve("0x861ef0CaB3ab4a1372E7eDa936668C8967F70110", arg).send({
           from: this.accounts[0],
           gasPrice: this.gasPrice,
           gasLimit: this.gasLimit,
           gas: parseFloat((this.gasPrice * this.gasLimit) / Math.pow(10, 9))
         });
-        await this.freyalaStake.methods.stake(arg).send({
+        await this.gameficrossingStake.methods.stake(arg).send({
           from: this.accounts[0],
           gasPrice: this.gasPrice,
           gasLimit: this.gasLimit,
@@ -473,13 +473,13 @@ export default {
       const actual = this.amountToStake * (10 ** 18);
       const arg = fromExponential(actual);
       try {
-        await this.freyalaToken.methods.approve("0x861ef0CaB3ab4a1372E7eDa936668C8967F70110", arg).send({
+        await this.gameficrossingToken.methods.approve("0x861ef0CaB3ab4a1372E7eDa936668C8967F70110", arg).send({
           from: this.accounts[0],
           gasPrice: this.gasPrice,
           gasLimit: this.gasLimit,
           gas: parseFloat((this.gasPrice * this.gasLimit) / Math.pow(10, 9))
         });
-        await this.freyalaStake.methods.stake(arg).send({
+        await this.gameficrossingStake.methods.stake(arg).send({
           from: this.accounts[0],
           gasPrice: this.gasPrice,
           gasLimit: this.gasLimit,
@@ -515,7 +515,7 @@ export default {
       this.unStakingLoading = true;
       const arg = fromExponential(actual);
       try {
-        await this.freyalaStake.methods.unstake(arg).send({
+        await this.gameficrossingStake.methods.unstake(arg).send({
           from: this.accounts[0],
           gasPrice: this.gasPrice,
           gasLimit: this.gasLimit,
@@ -541,7 +541,7 @@ export default {
       }
       this.withdrawLoading = true;
       try {
-        await this.freyalaStake.methods.withdrawEarnings().send({
+        await this.gameficrossingStake.methods.withdrawEarnings().send({
           from: this.accounts[0],
           gasPrice: this.gasPrice,
           gasLimit: this.gasLimit,

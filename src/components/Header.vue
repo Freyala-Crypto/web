@@ -9,7 +9,7 @@
       <div class="hidden lg:block w-4/5 my-auto text-right">
         <ul>
           <li class="uppercase pl-6">
-            <a href="https://world.gameficrossing.com/" target="_blank">
+            <a href="https://world.freyala.com/" target="_blank">
               <button
                   class="tracking-widest uppercase bg-gradient-to-r from-primary to-secondary py-4 px-8 rounded-md text-white text-xl font-semibold">
                 Enter the world
@@ -44,10 +44,10 @@
               <router-link :to="{ name: 'stake' }">Stake it!</router-link>
             </li>
             <li class="w-full uppercase" @click="changeMobilemenu()">
-              <a href="https://world.gameficrossing.com/" target="_blank">
+              <a href="https://world.freyala.com/" target="_blank">
                 <button
                     class="tracking-widest uppercase bg-gradient-to-r from-primary to-secondary py-4 px-8 rounded-md text-white text-xl font-semibold">
-                  Enter GameFi Crossing
+                  Enter the world
                 </button>
               </a>
             </li>
